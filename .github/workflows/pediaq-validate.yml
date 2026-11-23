@@ -1,0 +1,21 @@
+name: Validate PediaQ question bank
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate question JSON and manga files
+        run: python scripts/validate_questions.py
+      - name: Check JavaScript syntax
+        run: node --check app.js
+      - name: Compile daily generator
+        run: python -m py_compile scripts/daily_update.py
