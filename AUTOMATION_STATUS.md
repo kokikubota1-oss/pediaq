@@ -3,14 +3,14 @@
 ## What is already implemented / 実装済み
 - GitHub Actions schedules a daily run at 18:15 UTC (03:15 JST).
 - The generator produces one bilingual pediatric or Eiken Grade 1 question.
-- The generator requests a dedicated 2x2 four-panel manga and publishes only after image bytes are returned.
+- The generator first searches Wikimedia Commons for four separately licensed and credited images (one per choice). If coverage is insufficient, it attempts AI manga generation as a fallback; a new question must have either four attributed online images or its dedicated manga.
 - Approved, de-identified topics in `inbox/approved_topics.json` are consumed first.
 - Quiz answers and excluded questions are currently stored in browser localStorage.
 
 ## What is not yet automated / 未実装
 - Automatic access to all ChatGPT conversations: GitHub Actions has no authorized ChatGPT chat-history API integration.
 - Automatic clinical verification against current guidelines and editorial review.
-- Manga backfill for the 29 legacy questions without dedicated illustrations.
+- Image backfill for the 29 legacy questions without dedicated illustrations; legacy questions are preserved and show a placeholder when no matching artwork is available.
 - Cross-device answer-history synchronization and authentication.
 - Automatic recovery or retry after failed image generation.
 
@@ -42,3 +42,6 @@ Run `python scripts/validate_questions.py` to verify IDs, bilingual options, and
 
 ## Proposed next milestone / 次の開発段階
 Add an authenticated backend for per-user review history, a consent-based learning-note intake endpoint, editorial validation, and image generation backfill. Keep private learning data out of GitHub Pages.
+
+## Online image policy / ネット画像の方針
+Commons images are dynamically linked by their Wikimedia thumbnail URL and displayed alongside author, license, and source page. Only image metadata clearly marked as CC0, public domain, CC BY, or CC BY-SA is eligible. Automated keyword relevance is not a medical accuracy check; misidentified images may occur and require editorial QA. Images can disappear or change at the origin, so a reliable long-term deployment should locally cache appropriately attributed assets after license verification. Do not use generic web-search thumbnails without permission.
