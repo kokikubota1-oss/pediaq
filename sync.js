@@ -16,7 +16,7 @@
   const dateNow = () => new Date().toISOString();
   const safe = s => String(s == null ? '' : s).replace(/[&<>"']/g, c =>
     ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','"':'&quot;'}[c]));
-  function notify(value) { status = value; renderPanel(); }
+  function notify(value) { status = value; renderPanel(); window.PediaQPush?.renderPanel(); }
   function snapshot() { return JSON.parse(JSON.stringify(bridge.getHistory())); }
   function normalize(local) {
     let changed = false;
@@ -239,5 +239,5 @@
     });
     window.addEventListener('online', schedule);
   }
-  window.PediaQSync = {init, schedule, renderPanel};
+  window.PediaQSync = {init, schedule, renderPanel, getClient:()=>api, getUser:()=>user};
 })();
