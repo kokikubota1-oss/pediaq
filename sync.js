@@ -100,7 +100,9 @@
     // Pagination prevents older attempts silently disappearing from the local view.
     for (let start = 0; ; start += 1000) {
       const {data, error} = await api.from(table).select(columns)
-        .eq('user_id', user.id).range(start, start + 999);
+        .eq('user_id', user.id)
+        .order(table === 'pediaq_attempts' ? 'event_id' : 'question_id', {ascending:true})
+        .range(start, start + 999);
       if (error) throw error;
       const page = data || [];
       rows.push(...page);
