@@ -23,7 +23,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           PEDIAQ_TEXT_MODEL: gpt-4o-mini
-          PEDIAQ_IMAGE_MODEL: gpt-image-1
+          PEDIAQ_IMAGE_MODEL: gpt-image-1.5
           TZ: Asia/Tokyo
         run: python scripts/daily_update.py
       - name: Commit generated assets
