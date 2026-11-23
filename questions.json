@@ -8,19 +8,27 @@
     "options": [
       {
         "ja": "副腎不全",
-        "en": "Adrenal insufficiency"
+        "en": "Adrenal insufficiency",
+        "whyja": "副腎不全では糖新生障害による低血糖を来すが、インスリンによる脂肪分解抑制を示す低FFA・低ケトン血症と強いグルカゴン反応を一括して説明しにくい。",
+        "whyen": "Adrenal insufficiency can impair gluconeogenesis and cause hypoglycemia, but it does not readily account for simultaneous suppression of free fatty acids and ketones together with a strong glucagon response."
       },
       {
         "ja": "高インスリン性低血糖",
-        "en": "Hyperinsulinemic hypoglycemia"
+        "en": "Hyperinsulinemic hypoglycemia",
+        "whyja": "インスリンの不適切な作用は脂肪分解・ケトン産生を抑え、肝糖放出を抑制する。低血糖時のケトン0.2、FFA0.25、グルカゴン後42 mg/dL上昇は特徴的な組合せ。",
+        "whyen": "Inappropriately active insulin suppresses lipolysis, ketogenesis, and hepatic glucose release. Low ketones and free fatty acids during hypoglycemia, plus a 42 mg/dL rise after glucagon, are strongly suggestive."
       },
       {
         "ja": "糖原病I型",
-        "en": "GSD type I"
+        "en": "GSD type I",
+        "whyja": "糖原病I型では糖放出障害から乳酸上昇、肝腫大、高尿酸血症、高脂血症などが手掛かりとなる。ここでの脂肪酸・ケトン抑制はインスリン作用をより強く示唆する。",
+        "whyen": "Glycogen storage disease type I may feature hepatomegaly, lactic acidosis, hyperuricemia, and hyperlipidemia. The suppressed fatty acids and ketones here point more strongly toward insulin action."
       },
       {
         "ja": "腎性糖尿",
-        "en": "Renal glycosuria"
+        "en": "Renal glycosuria",
+        "whyja": "腎性糖尿は血糖が正常でも尿糖が出る腎尿細管の再吸収異常。通常、このような低ケトン性低血糖とグルカゴン反応の原因ではない。",
+        "whyen": "Renal glycosuria involves impaired renal tubular glucose reabsorption, often with normal blood glucose, and does not generally explain this hypoketotic hypoglycemic pattern."
       }
     ],
     "correct": 1,
@@ -37,19 +45,27 @@
     "options": [
       {
         "ja": "肺高血圧",
-        "en": "Pulmonary hypertension"
+        "en": "Pulmonary hypertension",
+        "whyja": "ジアゾキシドはKATPチャネルに作用してインスリン分泌を抑える一方、体液貯留や肺高血圧との関連がある。投与前後に呼吸循環状態を評価し、施設の方針に沿って心エコーなどを検討する。",
+        "whyen": "Diazoxide opens KATP channels to suppress insulin secretion but is associated with fluid retention and pulmonary hypertension. Assess cardiopulmonary status and consider echocardiography according to local practice."
       },
       {
         "ja": "難聴",
-        "en": "Hearing loss"
+        "en": "Hearing loss",
+        "whyja": "難聴は高インスリン性低血糖に対するジアゾキシドの代表的な投与前リスク評価項目ではない。併存疾患による聴覚評価が必要かどうかとは分けて考える。",
+        "whyen": "Hearing loss is not the characteristic pre-treatment complication driving diazoxide risk assessment. Hearing evaluation for other comorbidities is a separate question."
       },
       {
         "ja": "網膜剥離",
-        "en": "Retinal detachment"
+        "en": "Retinal detachment",
+        "whyja": "網膜剥離はジアゾキシドによる典型的な重大有害反応ではない。眼科評価は症状や基礎疾患に応じて判断する。",
+        "whyen": "Retinal detachment is not a characteristic serious adverse effect of diazoxide; ophthalmic examination depends on symptoms and underlying conditions."
       },
       {
         "ja": "甲状腺機能亢進",
-        "en": "Hyperthyroidism"
+        "en": "Hyperthyroidism",
+        "whyja": "甲状腺機能亢進はジアゾキシド開始時に特に警戒する典型的な合併症ではない。代謝疾患全体の鑑別と薬剤固有の安全性評価を混同しない。",
+        "whyen": "Hyperthyroidism is not the characteristic complication specifically prioritized before diazoxide therapy. Distinguish broader endocrine evaluation from medication-specific safety surveillance."
       }
     ],
     "correct": 0,
@@ -65,19 +81,27 @@
     "options": [
       {
         "ja": "体重だけ",
-        "en": "Weight alone"
+        "en": "Weight alone",
+        "whyja": "体重は体液状態や治療全体の評価に有用だが、光線療法の開始閾値を体重だけで決めることはできない。",
+        "whyen": "Weight matters for overall care but cannot independently determine the phototherapy threshold."
       },
       {
         "ja": "在胎週数・日齢時間・神経毒性リスク",
-        "en": "Gestational age, postnatal hours, neurotoxicity risks"
+        "en": "Gestational age, postnatal hours, neurotoxicity risks",
+        "whyja": "在胎週数、出生後時間、神経毒性リスク因子が治療閾値を決める中心情報。日齢8でも時間単位の年齢を確認し、採用しているガイドラインの該当曲線に照合する。",
+        "whyen": "Gestational age, postnatal age in hours, and neurotoxicity risk factors determine the relevant treatment threshold. Even on day eight, confirm age in hours and consult the appropriate guideline curve."
       },
       {
         "ja": "直接ビリルビンだけ",
-        "en": "Direct bilirubin alone"
+        "en": "Direct bilirubin alone",
+        "whyja": "直接ビリルビンは胆汁うっ滞などの評価に重要だが、非抱合型高ビリルビン血症に対する光線療法の判断を単独で決めない。",
+        "whyen": "Direct bilirubin is important when evaluating cholestasis but does not by itself determine phototherapy for unconjugated hyperbilirubinemia."
       },
       {
         "ja": "出生時アプガーだけ",
-        "en": "Apgar score alone"
+        "en": "Apgar score alone",
+        "whyja": "アプガースコア単独は治療閾値にならない。出生時の経過は神経毒性リスクの評価に関連することがあっても、スコアのみで決めない。",
+        "whyen": "An Apgar score alone does not define a treatment threshold. Birth circumstances may affect risk assessment, but the score alone is insufficient."
       }
     ],
     "correct": 1,
@@ -93,19 +117,27 @@
     "options": [
       {
         "ja": "正常血糖時のインスリン",
-        "en": "Insulin at normal glucose"
+        "en": "Insulin at normal glucose",
+        "whyja": "正常血糖時のインスリンは低血糖発生時のインスリン抑制の適切さを判断しにくい。採血時刻と血糖値の対応が重要。",
+        "whyen": "Insulin measured during normoglycemia does not establish whether insulin is appropriately suppressed during hypoglycemia. Timing relative to glucose is essential."
       },
       {
         "ja": "低血糖時のクリティカルサンプル",
-        "en": "Critical sample during hypoglycemia"
+        "en": "Critical sample during hypoglycemia",
+        "whyja": "低血糖が確認された時点で、治療を不必要に遅らせず、血糖とともにインスリン、ケトン体、FFA、コルチゾール、成長ホルモンなどを状況に応じて採取する。",
+        "whyen": "When hypoglycemia is documented, obtain a critical sample as feasible without unnecessarily delaying treatment, including glucose, insulin, ketones, free fatty acids, cortisol, and growth hormone as clinically indicated."
       },
       {
         "ja": "尿蛋白のみ",
-        "en": "Urine protein alone"
+        "en": "Urine protein alone",
+        "whyja": "尿蛋白は腎疾患の評価項目であり、持続する低血糖のホルモン・代謝性機序を直接特定できない。",
+        "whyen": "Urine protein evaluates renal pathology and does not directly identify the hormonal or metabolic mechanism of persistent hypoglycemia."
       },
       {
         "ja": "血液型のみ",
-        "en": "Blood type alone"
+        "en": "Blood type alone",
+        "whyja": "血液型は輸血などの場面で重要だが、低血糖の原因検索として優先する検査ではない。",
+        "whyen": "Blood typing matters for transfusion planning but is not a priority test for determining the cause of hypoglycemia."
       }
     ],
     "correct": 1,
@@ -121,19 +153,27 @@
     "options": [
       {
         "ja": "抗菌薬を穿刺まで待つ",
-        "en": "Wait for LP before antibiotics"
+        "en": "Wait for LP before antibiotics",
+        "whyja": "細菌性髄膜炎が疑われる場合、髄液採取の遅れに合わせて抗菌薬を待機すると治療遅延につながる。検体採取と治療開始の順番は緊急度で判断する。",
+        "whyen": "When bacterial meningitis is suspected, withholding antibiotics until a delayed lumbar puncture can dangerously postpone treatment. Balance specimen collection against the urgency of therapy."
       },
       {
         "ja": "血液培養後に速やかに経験的抗菌薬",
-        "en": "Obtain blood cultures and promptly start empiric antibiotics"
+        "en": "Obtain blood cultures and promptly start empiric antibiotics",
+        "whyja": "可能であれば血液培養を速やかに採取し、腰椎穿刺が遅れる場合でも経験的抗菌薬を遅延なく開始する。初期薬剤は年齢・耐性・地域疫学に応じる。",
+        "whyen": "Obtain blood cultures promptly when feasible, then initiate empiric antibiotics without waiting for a delayed lumbar puncture. Agent selection depends on age, resistance patterns, and local epidemiology."
       },
       {
         "ja": "解熱薬のみ",
-        "en": "Antipyretics only"
+        "en": "Antipyretics only",
+        "whyja": "解熱薬は不快感の緩和に役立っても、髄膜炎の細菌感染を治療しない。敗血症評価と抗菌薬が必要。",
+        "whyen": "Antipyretics may improve comfort but do not treat the underlying bacterial infection. Sepsis assessment and antimicrobials remain essential."
       },
       {
         "ja": "画像まで全治療を待つ",
-        "en": "Wait for imaging before any treatment"
+        "en": "Wait for imaging before any treatment",
+        "whyja": "画像検査が必要となる状況はあるが、画像終了まで全治療を待つのは不適切。意識障害・局所神経徴候・頭蓋内圧亢進などで穿刺の安全性を評価する。",
+        "whyen": "Imaging may be indicated, but treatment should not universally await imaging. Assess lumbar puncture safety when there is altered consciousness, focal neurology, or concern for raised intracranial pressure."
       }
     ],
     "correct": 1,
@@ -149,19 +189,27 @@
     "options": [
       {
         "ja": "細気管支炎",
-        "en": "Bronchiolitis"
+        "en": "Bronchiolitis",
+        "whyja": "細気管支炎は末梢気道の炎症・閉塞が中心で、太い気管支内の鋳型状物質を伴う急な片側無気肺という所見の説明には不十分。",
+        "whyen": "Bronchiolitis predominantly affects smaller airways and does not fully explain bronchial casts with abrupt unilateral atelectasis."
       },
       {
         "ja": "塑型性気管支炎",
-        "en": "Plastic bronchitis"
+        "en": "Plastic bronchitis",
+        "whyja": "塑型性気管支炎では気管支内の鋳型状物質が閉塞を引き起こし、無気肺や重度低酸素血症を来す。インフルエンザ後の急激な呼吸状態悪化で考慮する。",
+        "whyen": "Plastic bronchitis involves obstructive bronchial casts that can cause atelectasis and severe hypoxemia. Consider it when respiratory function deteriorates rapidly after influenza."
       },
       {
         "ja": "気胸",
-        "en": "Pneumothorax"
+        "en": "Pneumothorax",
+        "whyja": "気胸では胸膜腔の空気による肺虚脱が起こる。気管支内の鋳型物質が確認されているなら病態の主座は気道内閉塞。",
+        "whyen": "Pneumothorax causes lung collapse through air in the pleural space; documented bronchial casts instead indicate intraluminal airway obstruction."
       },
       {
         "ja": "過換気症候群",
-        "en": "Hyperventilation syndrome"
+        "en": "Hyperventilation syndrome",
+        "whyja": "過換気症候群は通常、器質的な鋳型状気道閉塞や無気肺を起こさない。重篤な低酸素血症を心理的要因だけで説明しない。",
+        "whyen": "Hyperventilation syndrome does not cause bronchial casts or atelectasis. Severe hypoxemia should not be attributed solely to a functional breathing disorder."
       }
     ],
     "correct": 1,
@@ -177,19 +225,27 @@
     "options": [
       {
         "ja": "バッグ尿培養のみ",
-        "en": "Bag urine culture alone"
+        "en": "Bag urine culture alone",
+        "whyja": "バッグ尿は汚染率が高く、培養陽性だけでUTIを確定しにくい。陰性なら参考となる場合はあるが、確定診断用培養としては不十分。",
+        "whyen": "Bag-collected urine is prone to contamination, so a positive culture alone is unreliable for confirming UTI. A negative result may help in screening but does not replace a diagnostic sample."
       },
       {
         "ja": "適切な方法で採取した尿培養",
-        "en": "Properly collected urine culture"
+        "en": "Properly collected urine culture",
+        "whyja": "抗菌薬投与前に、年齢と排尿管理能力に応じ、カテーテル・清潔中間尿など適切な方法で採取した尿培養を確保する。",
+        "whyen": "Before antibiotics, obtain a urine culture through an appropriate collection method, such as catheterization or clean catch, according to the child's age and toileting status."
       },
       {
         "ja": "咽頭培養",
-        "en": "Throat culture"
+        "en": "Throat culture",
+        "whyja": "咽頭培養は咽頭病原体を調べる検査であり、尿路感染の原因菌の確定には適さない。",
+        "whyen": "A throat culture investigates pharyngeal pathogens rather than establishing the causative organism of a urinary tract infection."
       },
       {
         "ja": "便培養",
-        "en": "Stool culture"
+        "en": "Stool culture",
+        "whyja": "便培養は腸管感染の評価に使う。UTIを疑う児の診断では適切な尿検体が優先される。",
+        "whyen": "Stool cultures evaluate intestinal pathogens; an appropriately collected urine sample is the priority when investigating suspected UTI."
       }
     ],
     "correct": 1,
@@ -205,19 +261,27 @@
     "options": [
       {
         "ja": "必ず活動性脳炎",
-        "en": "Always active encephalitis"
+        "en": "Always active encephalitis",
+        "whyja": "髄液PCR陽性はウイルスDNA検出を意味するが、必ずしも活動性の中枢神経感染を証明しない。臨床経過・画像・免疫状態と統合する。",
+        "whyen": "Positive CSF PCR demonstrates viral DNA, not necessarily active CNS infection. Interpret it alongside clinical findings, imaging, and immune status."
       },
       {
         "ja": "染色体組込みHHV-6などを考慮",
-        "en": "Consider chromosomally integrated HHV-6 and context"
+        "en": "Consider chromosomally integrated HHV-6 and context",
+        "whyja": "染色体組込みHHV-6（ciHHV-6）ではウイルスDNAが宿主ゲノムに存在し、検体で陽性になり得る。必要に応じ全血定量や毛髪・爪などを用いた検証を検討する。",
+        "whyen": "Chromosomally integrated HHV-6 (ciHHV-6) can produce positive DNA tests because viral sequences reside in the host genome. Quantitative whole-blood testing and testing nonblood tissue may help when indicated."
       },
       {
         "ja": "検査は常に偽陽性",
-        "en": "Always false positive"
+        "en": "Always false positive",
+        "whyja": "髄液HHV-6 PCR陽性を一律に偽陽性と扱うのも誤り。活動性感染の可能性を臨床像と免疫状態に応じて評価する。",
+        "whyen": "It is equally wrong to treat every positive CSF HHV-6 PCR as false. Assess possible active infection in light of the clinical syndrome and immune status."
       },
       {
         "ja": "HSV感染が確定",
-        "en": "Confirms HSV"
+        "en": "Confirms HSV",
+        "whyja": "HHV-6の検出結果からHSV感染は確定しない。HSVが疑われる場合は別途HSV PCRなどで評価する。",
+        "whyen": "HHV-6 detection does not establish HSV infection. Suspected HSV requires its own evaluation, such as HSV PCR testing."
       }
     ],
     "correct": 1,
@@ -233,19 +297,27 @@
     "options": [
       {
         "ja": "膿瘍形成と排膿の必要性",
-        "en": "Abscess formation and need for drainage"
+        "en": "Abscess formation and need for drainage",
+        "whyja": "波動は液体貯留、特に膿瘍を示唆する。超音波などで深さ・広がりを確認し、切開排膿などの適応を検討する。",
+        "whyen": "Fluctuance suggests a fluid collection, particularly an abscess. Ultrasound may delineate the depth and extent and help determine whether drainage is indicated."
       },
       {
         "ja": "抗ヒスタミン薬のみ",
-        "en": "Antihistamine alone"
+        "en": "Antihistamine alone",
+        "whyja": "抗ヒスタミン薬単独では細菌性膿瘍や蜂窩織炎を治療できない。感染巣の評価が必要。",
+        "whyen": "Antihistamines alone do not treat a bacterial abscess or cellulitis. Evaluation of the infectious focus is necessary."
       },
       {
         "ja": "抗菌薬を即中止",
-        "en": "Stop all antibiotics immediately"
+        "en": "Stop all antibiotics immediately",
+        "whyja": "波動の存在だけで抗菌薬を即座に中止する判断にはならない。重症度・排膿・病原体に応じて治療を調整する。",
+        "whyen": "Fluctuance alone is not a reason to stop antibiotics immediately. Treatment depends on severity, drainage, and likely pathogens."
       },
       {
         "ja": "放置",
-        "en": "Observe without assessment"
+        "en": "Observe without assessment",
+        "whyja": "膿瘍を放置すると局所拡大や全身感染の危険がある。排膿が必要か早期に判断する。",
+        "whyen": "Leaving an abscess unassessed risks local extension or systemic infection. Evaluate promptly whether drainage is required."
       }
     ],
     "correct": 0,
@@ -261,19 +333,27 @@
     "options": [
       {
         "ja": "全セフェムが必ず臨床的有効",
-        "en": "All cephalosporins are always effective"
+        "en": "All cephalosporins are always effective",
+        "whyja": "ESBLは多くのペニシリン系・セフェム系薬を加水分解する。全セフェムが必ず有効とはいえず、感受性と感染巣を確認する。",
+        "whyen": "ESBL enzymes hydrolyze many penicillins and cephalosporins. Not all cephalosporins are reliably effective; review susceptibility and infection site."
       },
       {
         "ja": "第3世代セフェムへの耐性が問題になる",
-        "en": "Resistance to third-generation cephalosporins is a concern"
+        "en": "Resistance to third-generation cephalosporins is a concern",
+        "whyja": "ESBL産生菌ではセフトリアキソンなど第3世代セフェムへの耐性が典型的な問題となる。菌種・感受性・感染の重症度で治療方針が変わる。",
+        "whyen": "ESBL-producing organisms commonly resist third-generation cephalosporins such as ceftriaxone. Therapy depends on species, susceptibility, and infection severity."
       },
       {
         "ja": "ウイルスである",
-        "en": "They are viruses"
+        "en": "They are viruses",
+        "whyja": "ESBLは細菌が産生するβラクタマーゼの一群を指す言葉で、ウイルスの分類ではない。",
+        "whyen": "ESBL refers to extended-spectrum beta-lactamase enzymes produced by bacteria, not a type of virus."
       },
       {
         "ja": "接触感染対策は無意味",
-        "en": "Contact precautions are meaningless"
+        "en": "Contact precautions are meaningless",
+        "whyja": "患者周囲の手指衛生と標準予防策は重要。接触予防策の要否は施設方針や感染状況に応じるが、無意味ではない。",
+        "whyen": "Hand hygiene and standard precautions matter. Additional contact precautions depend on facility policy and epidemiology, but infection control is not meaningless."
       }
     ],
     "correct": 1,
@@ -289,19 +369,27 @@
     "options": [
       {
         "ja": "ADEM",
-        "en": "ADEM"
+        "en": "ADEM",
+        "whyja": "ADEMは通常、感染後の炎症性脱髄疾患でMRIに多巣性病変を示す。二相性けいれんと遅発性拡散低下の典型像からはAESDが優先される。",
+        "whyen": "ADEM is a postinfectious inflammatory demyelinating disease with typically multifocal MRI abnormalities. Biphasic seizures with late diffusion restriction favor AESD."
       },
       {
         "ja": "AESD",
-        "en": "AESD"
+        "en": "AESD",
+        "whyja": "AESDは初回の長いけいれん後に一時改善し、数日後に二相性けいれんを呈し、遅発性拡散低下を生じるのが特徴。",
+        "whyen": "Acute encephalopathy with biphasic seizures and late reduced diffusion (AESD) classically features prolonged initial seizures, transient improvement, then recurrent seizures days later with delayed MRI diffusion abnormalities."
       },
       {
         "ja": "単純型熱性けいれん",
-        "en": "Simple febrile seizure"
+        "en": "Simple febrile seizure",
+        "whyja": "単純型熱性けいれんは短時間・全般性・24時間以内の反復なしを基本とする。二相性経過と遅発性MRI異常は説明できない。",
+        "whyen": "Simple febrile seizures are typically brief and generalized without recurrence within 24 hours. They do not explain a biphasic course or delayed MRI abnormalities."
       },
       {
         "ja": "脳腫瘍",
-        "en": "Brain tumor"
+        "en": "Brain tumor",
+        "whyja": "脳腫瘍は発作や頭蓋内圧症状を来し得るが、感染契機の二相性けいれん・遅発性拡散低下という特徴的経過を第一に説明する疾患ではない。",
+        "whyen": "Brain tumors can cause seizures or raised intracranial pressure but are not the leading explanation for this characteristic postinfectious biphasic pattern."
       }
     ],
     "correct": 1,
@@ -317,19 +405,27 @@
     "options": [
       {
         "ja": "経過観察のみ",
-        "en": "Observation only"
+        "en": "Observation only",
+        "whyja": "7分続くけいれんは治療介入を要する可能性が高い。観察のみでは低酸素や発作遷延のリスクが高まる。",
+        "whyen": "A seizure lasting seven minutes warrants active intervention; observation alone risks prolonged seizures and hypoxia."
       },
       {
         "ja": "ABC評価とベンゾジアゼピン",
-        "en": "Assess ABCs and administer a benzodiazepine"
+        "en": "Assess ABCs and administer a benzodiazepine",
+        "whyja": "安全確保、気道・呼吸・循環・血糖評価を行い、適切な経路と用量のベンゾジアゼピンを早期に投与する。必要なら二次薬へ進む。",
+        "whyen": "Ensure safety, assess airway, breathing, circulation, and glucose, and administer a benzodiazepine promptly by an appropriate route and dose. Escalate to second-line therapy if needed."
       },
       {
         "ja": "直ちに腰椎穿刺のみ",
-        "en": "Lumbar puncture only"
+        "en": "Lumbar puncture only",
+        "whyja": "腰椎穿刺は原因検索として適応を検討するが、進行中のけいれんの停止やABC安定化より優先しない。",
+        "whyen": "Lumbar puncture may be indicated in the etiologic workup but does not take priority over seizure termination and ABC stabilization."
       },
       {
         "ja": "経口抗てんかん薬のみ",
-        "en": "Oral antiseizure medicine only"
+        "en": "Oral antiseizure medicine only",
+        "whyja": "経口薬のみでは持続するけいれんに対する初期救急治療として不十分。呼吸管理と速効性の発作停止薬が優先される。",
+        "whyen": "Oral antiseizure medication alone is inadequate as the first emergency intervention for ongoing convulsions. Airway support and a rapidly acting rescue agent take priority."
       }
     ],
     "correct": 1,
@@ -345,19 +441,27 @@
     "options": [
       {
         "ja": "意識変容の経時評価と代謝・画像・脳波",
-        "en": "Serial neurologic assessment plus metabolic, imaging, and EEG studies"
+        "en": "Serial neurologic assessment plus metabolic, imaging, and EEG studies",
+        "whyja": "意識障害の経時変化、血糖・電解質などの代謝異常、頭部MRI、脳波を病態に応じて評価し、けいれん重積・脳炎・急性脳症を見逃さない。",
+        "whyen": "Serially assess consciousness, metabolic derangements such as glucose and electrolytes, brain MRI, and EEG as indicated to evaluate encephalopathy, encephalitis, or ongoing seizures."
       },
       {
         "ja": "体温だけ",
-        "en": "Temperature alone"
+        "en": "Temperature alone",
+        "whyja": "体温は感染重症度評価の一部だが、持続する意識障害の原因や非けいれん性発作を評価できない。",
+        "whyen": "Temperature is one component of illness assessment but cannot explain persistent altered consciousness or detect nonconvulsive seizures."
       },
       {
         "ja": "咳の回数だけ",
-        "en": "Cough frequency alone"
+        "en": "Cough frequency alone",
+        "whyja": "咳の回数は呼吸器症状の観察には使えるが、急性脳症の神経学的評価を置き換えられない。",
+        "whyen": "Cough frequency may describe respiratory symptoms but cannot replace a neurologic assessment for acute encephalopathy."
       },
       {
         "ja": "尿比重だけ",
-        "en": "Urine specific gravity alone"
+        "en": "Urine specific gravity alone",
+        "whyja": "尿比重は水分状態の手掛かりとなるが、脳症の病態評価に単独で十分ではない。",
+        "whyen": "Urine specific gravity may inform hydration status but is insufficient on its own for evaluating encephalopathy."
       }
     ],
     "correct": 0,
@@ -373,19 +477,27 @@
     "options": [
       {
         "ja": "頭蓋内圧亢進の評価",
-        "en": "Assess raised intracranial pressure"
+        "en": "Assess raised intracranial pressure",
+        "whyja": "頭痛・嘔吐・乳頭浮腫は頭蓋内圧亢進を疑う重要所見。神経診察と必要な画像評価を行い、腰椎穿刺の危険性を検討する。",
+        "whyen": "Headache, vomiting, and papilledema raise concern for increased intracranial pressure. Perform neurologic assessment and appropriate imaging before deciding whether lumbar puncture is safe."
       },
       {
         "ja": "採血を一切しない",
-        "en": "Avoid all blood tests"
+        "en": "Avoid all blood tests",
+        "whyja": "採血は感染・代謝・凝固などの評価で必要なことがある。一律に禁止する理由はない。",
+        "whyen": "Blood tests may be required to assess infection, metabolic disturbance, or coagulation; a blanket prohibition is unjustified."
       },
       {
         "ja": "直ちに大量飲水",
-        "en": "Immediate large fluid intake"
+        "en": "Immediate large fluid intake",
+        "whyja": "頭蓋内圧亢進が疑われる患者に大量飲水を指示するのは適切な初期対応ではない。原因検索と安全な全身管理が優先。",
+        "whyen": "Instructing a child with suspected intracranial hypertension to drink large volumes is inappropriate. Determine the cause and manage the patient safely."
       },
       {
         "ja": "必ず外来帰宅",
-        "en": "Always discharge"
+        "en": "Always discharge",
+        "whyja": "乳頭浮腫や神経学的レッドフラッグがある児を無条件で帰宅させるべきではない。",
+        "whyen": "A child with papilledema and neurologic red flags should not be routinely discharged without further evaluation."
       }
     ],
     "correct": 0,
@@ -401,19 +513,27 @@
     "options": [
       {
         "ja": "ネフローゼ症候群",
-        "en": "Nephrotic syndrome"
+        "en": "Nephrotic syndrome",
+        "whyja": "高度蛋白尿、低アルブミン血症、浮腫はネフローゼ症候群の代表的な組合せ。腎機能、血圧、循環血液量、血栓・感染リスクを評価する。",
+        "whyen": "Heavy proteinuria, hypoalbuminemia, and edema are typical of nephrotic syndrome. Assess renal function, blood pressure, effective circulating volume, and thrombotic and infectious risks."
       },
       {
         "ja": "尿崩症",
-        "en": "Diabetes insipidus"
+        "en": "Diabetes insipidus",
+        "whyja": "尿崩症は抗利尿ホルモン作用の障害による多尿・高Na血症などが中心で、高度蛋白尿と低Albの主因ではない。",
+        "whyen": "Diabetes insipidus chiefly causes polyuria and potentially hypernatremia through impaired antidiuretic hormone action, not heavy proteinuria with low albumin."
       },
       {
         "ja": "腎性糖尿",
-        "en": "Renal glycosuria"
+        "en": "Renal glycosuria",
+        "whyja": "腎性糖尿では尿糖が排泄されるが、ネフローゼレベルの蛋白尿を特徴としない。",
+        "whyen": "Renal glycosuria produces glucose in the urine but is not characterized by nephrotic-range proteinuria."
       },
       {
         "ja": "単純性膀胱炎",
-        "en": "Simple cystitis"
+        "en": "Simple cystitis",
+        "whyja": "単純性膀胱炎は排尿時痛や頻尿を主体とし、高度蛋白尿・低Alb・浮腫の組合せは典型的ではない。",
+        "whyen": "Uncomplicated cystitis typically causes dysuria and frequency, not the combination of severe proteinuria, hypoalbuminemia, and edema."
       }
     ],
     "correct": 0,
@@ -429,19 +549,27 @@
     "options": [
       {
         "ja": "C3低下",
-        "en": "Low C3"
+        "en": "Low C3",
+        "whyja": "溶連菌感染後急性糸球体腎炎では代替経路活性化によりC3が低下することが多い。一定期間後の補体回復も重要な確認点。",
+        "whyen": "Poststreptococcal glomerulonephritis commonly lowers C3 through alternative complement pathway activation. Subsequent recovery helps support the diagnosis."
       },
       {
         "ja": "C3著増",
-        "en": "Markedly high C3"
+        "en": "Markedly high C3",
+        "whyja": "C3著増は典型的な所見ではない。C3が正常のままなら他の糸球体腎炎も鑑別に入る。",
+        "whyen": "Markedly increased C3 is not characteristic. Persistently normal C3 may prompt consideration of other forms of glomerulonephritis."
       },
       {
         "ja": "C4単独著増",
-        "en": "Isolated high C4"
+        "en": "Isolated high C4",
+        "whyja": "C4単独著増はこの疾患の典型的な補体パターンではない。C3・C4の組合せが病態を考える手掛かりとなる。",
+        "whyen": "Isolated C4 elevation is not the characteristic complement pattern. Interpreting C3 and C4 together can help clarify the underlying pathway."
       },
       {
         "ja": "補体は診断に無関係",
-        "en": "Complement is irrelevant"
+        "en": "Complement is irrelevant",
+        "whyja": "補体検査はPSAGNと他の糸球体腎炎の鑑別や経過観察に重要なため、診断と無関係ではない。",
+        "whyen": "Complement testing helps distinguish poststreptococcal glomerulonephritis from other causes and can aid follow-up; it is not irrelevant."
       }
     ],
     "correct": 0,
@@ -457,19 +585,27 @@
     "options": [
       {
         "ja": "循環血液量と過剰輸液の再評価",
-        "en": "Reassess volume status and fluid overload"
+        "en": "Reassess volume status and fluid overload",
+        "whyja": "輸液後も乏尿なら、体液不足の持続だけでなく腎実質障害や過剰輸液を考える。尿量、体重、血圧、末梢灌流、電解質を反復評価する。",
+        "whyen": "Persistent oliguria after fluids requires reassessment for ongoing hypovolemia, intrinsic kidney injury, or overload. Recheck urine output, weight, blood pressure, perfusion, and electrolytes."
       },
       {
         "ja": "無制限の輸液",
-        "en": "Unlimited fluids"
+        "en": "Unlimited fluids",
+        "whyja": "反応を確認せず輸液を無制限に続けると肺水腫・低Na血症などを招く危険がある。",
+        "whyen": "Unlimited fluids without reassessment can cause pulmonary edema, hyponatremia, and other complications."
       },
       {
         "ja": "NSAIDs追加",
-        "en": "Add NSAIDs"
+        "en": "Add NSAIDs",
+        "whyja": "NSAIDsは腎血流調節に影響し、脱水やAKI時には腎障害を悪化させ得るため安易に追加しない。",
+        "whyen": "NSAIDs alter renal perfusion and can worsen kidney injury during dehydration or AKI, so they should not be added casually."
       },
       {
         "ja": "尿量を無視",
-        "en": "Ignore urine output"
+        "en": "Ignore urine output",
+        "whyja": "乏尿は循環状態・腎機能・治療反応性の重要な指標であり、無視しない。",
+        "whyen": "Oliguria is an important marker of circulation, renal function, and response to treatment and should never be ignored."
       }
     ],
     "correct": 0,
@@ -485,19 +621,27 @@
     "options": [
       {
         "ja": "上室頻拍",
-        "en": "Supraventricular tachycardia"
+        "en": "Supraventricular tachycardia",
+        "whyja": "乳児で突然始まる規則正しい250/分の頻脈は上室頻拍を強く疑う。循環動態と心電図QRS幅を確認し、安定性に応じた治療を判断する。",
+        "whyen": "Abrupt-onset regular tachycardia at 250 beats/min in an infant strongly suggests supraventricular tachycardia. Assess perfusion and ECG QRS width, then treat according to stability."
       },
       {
         "ja": "洞性徐脈",
-        "en": "Sinus bradycardia"
+        "en": "Sinus bradycardia",
+        "whyja": "洞性徐脈は心拍数が遅い状態で、突然の250/分の頻脈とは一致しない。",
+        "whyen": "Sinus bradycardia denotes a slow heart rate and cannot explain a sudden rate of 250 beats/min."
       },
       {
         "ja": "完全房室ブロック",
-        "en": "Complete heart block"
+        "en": "Complete heart block",
+        "whyja": "完全房室ブロックでは房室伝導が途絶え、通常心室拍数は低下する。突然の規則正しい高度頻脈には合致しない。",
+        "whyen": "Complete AV block disrupts atrioventricular conduction and typically produces a slow ventricular escape rhythm rather than abrupt rapid regular tachycardia."
       },
       {
         "ja": "心室期外収縮単発",
-        "en": "Isolated PVC"
+        "en": "Isolated PVC",
+        "whyja": "単発の心室期外収縮は孤発性の異常拍動であり、持続する規則正しい250/分の頻拍とは異なる。",
+        "whyen": "A single premature ventricular complex is an isolated ectopic beat, not a sustained regular tachycardia at 250 beats/min."
       }
     ],
     "correct": 0,
@@ -513,19 +657,27 @@
     "options": [
       {
         "ja": "心エコーで冠動脈評価",
-        "en": "Echocardiography for coronary arteries"
+        "en": "Echocardiography for coronary arteries",
+        "whyja": "川崎病では冠動脈拡大・瘤、心機能、弁逆流、心嚢液などを心エコーで評価する。初回が正常でも時期に応じた再評価が重要。",
+        "whyen": "In Kawasaki disease, echocardiography assesses coronary dilation or aneurysms, ventricular function, valvular regurgitation, and pericardial effusion. Follow-up matters even after an initially normal study."
       },
       {
         "ja": "脳波のみ",
-        "en": "EEG alone"
+        "en": "EEG alone",
+        "whyja": "脳波はけいれんなどを評価する検査で、川崎病の急性期に必要な冠動脈評価を代替しない。",
+        "whyen": "EEG evaluates seizures and other cerebral electrical abnormalities but cannot replace acute coronary assessment in Kawasaki disease."
       },
       {
         "ja": "肺活量のみ",
-        "en": "Spirometry alone"
+        "en": "Spirometry alone",
+        "whyja": "肺活量測定は呼吸機能検査で、冠動脈病変の評価には不適切。",
+        "whyen": "Spirometry measures pulmonary function, not coronary artery involvement."
       },
       {
         "ja": "骨密度のみ",
-        "en": "Bone density alone"
+        "en": "Bone density alone",
+        "whyja": "骨密度検査は骨代謝の評価に用いる。急性期川崎病の心血管合併症を調べる検査ではない。",
+        "whyen": "Bone densitometry evaluates skeletal health rather than acute cardiovascular complications of Kawasaki disease."
       }
     ],
     "correct": 0,
@@ -541,19 +693,27 @@
     "options": [
       {
         "ja": "心原性失神の精査",
-        "en": "Evaluate for cardiac syncope"
+        "en": "Evaluate for cardiac syncope",
+        "whyja": "運動中の失神と突然死の家族歴は心原性失神のレッドフラッグ。12誘導心電図、家族歴の詳細、心エコー等を検討し循環器評価へつなぐ。",
+        "whyen": "Syncope during exercise plus a family history of sudden death is a cardiac red flag. Obtain a 12-lead ECG and a detailed family history, with further cardiac evaluation as indicated."
       },
       {
         "ja": "単純な迷走神経反射と断定",
-        "en": "Assume vasovagal syncope"
+        "en": "Assume vasovagal syncope",
+        "whyja": "迷走神経反射は一般的な原因だが、運動誘発と突然死家族歴がある場合に無条件で断定してはいけない。",
+        "whyen": "Vasovagal syncope is common, but exertional syncope with a sudden-death family history should not be automatically labeled benign."
       },
       {
         "ja": "水分指導のみ",
-        "en": "Hydration advice only"
+        "en": "Hydration advice only",
+        "whyja": "水分摂取の指導は起立性不耐症に役立つ場合があるが、心疾患の危険徴候があればそれだけでは不十分。",
+        "whyen": "Hydration advice may help orthostatic intolerance, but it is insufficient when cardiac red flags are present."
       },
       {
         "ja": "検査不要",
-        "en": "No evaluation"
+        "en": "No evaluation",
+        "whyja": "心原性の重篤な原因を見逃す恐れがあるため、運動中失神は検査不要とはいえない。",
+        "whyen": "Exertional syncope requires evaluation because omitting testing risks missing serious cardiac causes."
       }
     ],
     "correct": 0,
@@ -569,19 +729,27 @@
     "options": [
       {
         "ja": "酸素・短時間作用性β2刺激薬・重症度評価",
-        "en": "Oxygen, short-acting beta agonist, severity assessment"
+        "en": "Oxygen, short-acting beta agonist, severity assessment",
+        "whyja": "SpO2 89%と陥没呼吸は重症増悪を示唆する。酸素、速効性吸入β2刺激薬、呼吸仕事量・意識・循環の反復評価を行い、全身性ステロイド等も重症度で検討する。",
+        "whyen": "SpO2 89% with retractions suggests a significant exacerbation. Give oxygen and rapid-acting inhaled beta-2 agonist, reassess work of breathing, consciousness, and circulation, and consider systemic corticosteroids according to severity."
       },
       {
         "ja": "抗菌薬のみ",
-        "en": "Antibiotics alone"
+        "en": "Antibiotics alone",
+        "whyja": "喘息急性増悪では抗菌薬は原則第一選択ではない。細菌感染の根拠がある場合に別途検討する。",
+        "whyen": "Antibiotics are not routine first-line treatment for acute asthma; consider them only when bacterial infection is supported."
       },
       {
         "ja": "鎮咳薬のみ",
-        "en": "Antitussives alone"
+        "en": "Antitussives alone",
+        "whyja": "鎮咳薬のみでは気道狭窄と低酸素血症の改善は期待できず、適切な気管支拡張・酸素化が必要。",
+        "whyen": "Cough suppressants alone do not reverse bronchoconstriction or hypoxemia; bronchodilation and oxygenation are needed."
       },
       {
         "ja": "帰宅",
-        "en": "Discharge"
+        "en": "Discharge",
+        "whyja": "低酸素血症と努力呼吸を伴う患児の即時帰宅は危険。治療後の反応と重症度に基づく観察が必要。",
+        "whyen": "Immediate discharge is unsafe when hypoxemia and increased respiratory effort are present; reassessment after treatment is necessary."
       }
     ],
     "correct": 0,
@@ -597,19 +765,27 @@
     "options": [
       {
         "ja": "支持療法と酸素化・水分評価",
-        "en": "Supportive care and assessment of oxygenation and hydration"
+        "en": "Supportive care and assessment of oxygenation and hydration",
+        "whyja": "細気管支炎の基本は支持療法であり、呼吸状態・酸素化・哺乳量・脱水を評価して必要な酸素や水分補給を行う。",
+        "whyen": "Bronchiolitis care is primarily supportive, focusing on respiratory effort, oxygenation, feeding, and hydration, with supplemental oxygen and fluids as needed."
       },
       {
         "ja": "全例抗菌薬",
-        "en": "Antibiotics for all"
+        "en": "Antibiotics for all",
+        "whyja": "原因は通常ウイルスであり、細菌合併感染の根拠がなければ抗菌薬の一律投与は推奨されない。",
+        "whyen": "Bronchiolitis is usually viral, and routine antibiotics are not recommended without evidence of bacterial coinfection."
       },
       {
         "ja": "全例ステロイド",
-        "en": "Steroids for all"
+        "en": "Steroids for all",
+        "whyja": "全例へのステロイド投与は通常利益が示されていない。特別な併存病態がある場合は個別に考える。",
+        "whyen": "Routine corticosteroids have not shown consistent benefit for uncomplicated bronchiolitis. Special comorbid conditions require individualized judgment."
       },
       {
         "ja": "全例胸部CT",
-        "en": "CT for all"
+        "en": "CT for all",
+        "whyja": "全例胸部CTは放射線被曝と負担が大きく不要。診断は主に臨床像で行う。",
+        "whyen": "Routine chest CT exposes infants to unnecessary radiation and is generally not indicated; diagnosis is primarily clinical."
       }
     ],
     "correct": 0,
@@ -625,19 +801,27 @@
     "options": [
       {
         "ja": "脳損傷・脳浮腫",
-        "en": "Cerebral injury or edema"
+        "en": "Cerebral injury or edema",
+        "whyja": "DKA治療中の頭痛、徐脈、意識障害は脳損傷を疑う危険徴候。治療を遅らせず緊急評価・適切な高浸透圧療法などを検討する。",
+        "whyen": "Headache, bradycardia, and altered consciousness during DKA treatment are concerning for cerebral injury. Initiate urgent assessment and consider appropriate hyperosmolar therapy without delaying care."
       },
       {
         "ja": "軽度便秘",
-        "en": "Mild constipation"
+        "en": "Mild constipation",
+        "whyja": "便秘はこれらの進行性神経症状を説明せず、危険な脳合併症を除外しない。",
+        "whyen": "Constipation does not explain these evolving neurological signs and cannot replace assessment for cerebral complications."
       },
       {
         "ja": "甲状腺機能亢進",
-        "en": "Hyperthyroidism"
+        "en": "Hyperthyroidism",
+        "whyja": "甲状腺機能亢進症は頻脈などを伴うことがあり、この急性の徐脈・意識変容の組合せを第一に説明しない。",
+        "whyen": "Hyperthyroidism often causes tachycardia and does not chiefly explain this acute combination of bradycardia and altered consciousness."
       },
       {
         "ja": "単純な空腹",
-        "en": "Hunger"
+        "en": "Hunger",
+        "whyja": "空腹感は頭痛・徐脈・意識障害の危険な組合せを説明しない。低血糖などの併発評価も重要。",
+        "whyen": "Ordinary hunger cannot explain these alarming signs. Check for concomitant hypoglycemia and other metabolic causes as well."
       }
     ],
     "correct": 0,
@@ -653,19 +837,27 @@
     "options": [
       {
         "ja": "成長曲線と成長速度",
-        "en": "Growth chart and growth velocity"
+        "en": "Growth chart and growth velocity",
+        "whyja": "成長曲線に複数時点をプロットして成長速度を求めることが、病的な成長障害の判定に重要。両親身長・骨年齢・思春期段階も考慮する。",
+        "whyen": "Serially plotting height and calculating growth velocity are central to evaluating pathologic growth failure. Parental height, bone age, and pubertal stage also inform assessment."
       },
       {
         "ja": "単回の身長だけ",
-        "en": "Single height measurement only"
+        "en": "Single height measurement only",
+        "whyja": "単回の身長値だけでは成長速度やチャンネルダウンを評価できない。過去の健診データを確認する。",
+        "whyen": "A single height measurement cannot determine growth velocity or crossing of growth centile channels. Retrieve prior growth measurements."
       },
       {
         "ja": "血液型",
-        "en": "Blood type"
+        "en": "Blood type",
+        "whyja": "血液型は通常、低身長の初期鑑別で有用な主要情報ではない。",
+        "whyen": "Blood type is not a key initial variable in evaluating short stature."
       },
       {
         "ja": "利き手",
-        "en": "Handedness"
+        "en": "Handedness",
+        "whyja": "利き手は神経発達の文脈では意味を持つ場合があるが、低身長の初期評価の中心ではない。",
+        "whyen": "Handedness may matter in other developmental contexts but is not central to initial short-stature evaluation."
       }
     ],
     "correct": 0,
@@ -681,19 +873,27 @@
     "options": [
       {
         "ja": "臨床リスク評価と超音波を考慮",
-        "en": "Clinical risk stratification and consider ultrasound"
+        "en": "Clinical risk stratification and consider ultrasound",
+        "whyja": "虫垂炎の可能性を問診・診察・検査で層別化し、必要に応じて被曝のない腹部超音波を第一の画像検査として検討する。",
+        "whyen": "Risk-stratify suspected appendicitis using history, examination, and laboratory findings, and consider ultrasound as an initial imaging test because it avoids radiation."
       },
       {
         "ja": "必ず造影CTが最初",
-        "en": "Contrast CT always first"
+        "en": "Contrast CT always first",
+        "whyja": "すべての小児に造影CTを最初に行う必要はない。超音波や臨床リスクを用いて画像検査を適正化する。",
+        "whyen": "Not every child needs contrast CT as the first test; ultrasound and clinical risk assessment can reduce unnecessary imaging."
       },
       {
         "ja": "腹痛なら抗菌薬だけ",
-        "en": "Antibiotics alone for all pain"
+        "en": "Antibiotics alone for all pain",
+        "whyja": "腹痛の原因が確定しないまま抗菌薬だけで済ませると、外科的対応が必要な病態を見落とす恐れがある。",
+        "whyen": "Treating undifferentiated abdominal pain with antibiotics alone may miss conditions requiring surgery."
       },
       {
         "ja": "診察不要",
-        "en": "No examination"
+        "en": "No examination",
+        "whyja": "診察を省くと腹膜刺激徴候、腹痛部位の移動、脱水、精巣疾患など重要所見を見落とす。",
+        "whyen": "Skipping examination risks missing peritoneal signs, migratory pain, dehydration, or conditions such as testicular pathology."
       }
     ],
     "correct": 0,
@@ -709,19 +909,27 @@
     "options": [
       {
         "ja": "毛細血管再充満と全身状態",
-        "en": "Capillary refill and overall appearance"
+        "en": "Capillary refill and overall appearance",
+        "whyja": "毛細血管再充満、全身状態、意識、粘膜、尿量などを組み合わせて脱水・末梢循環を評価する。単一徴候への依存は避ける。",
+        "whyen": "Assess dehydration and perfusion using capillary refill, overall appearance, alertness, mucous membranes, and urine output rather than relying on a single sign."
       },
       {
         "ja": "便の色だけ",
-        "en": "Stool color alone"
+        "en": "Stool color alone",
+        "whyja": "便色は消化管疾患の手掛かりになる場合があるが、脱水の重症度を単独で決定しない。",
+        "whyen": "Stool color can inform the gastrointestinal differential but does not independently grade dehydration."
       },
       {
         "ja": "身長だけ",
-        "en": "Height alone"
+        "en": "Height alone",
+        "whyja": "身長は長期の成長評価には重要でも、急性脱水の程度を判断する主要な身体所見ではない。",
+        "whyen": "Height is useful for longitudinal growth assessment but is not a primary sign for grading acute dehydration."
       },
       {
         "ja": "耳垢",
-        "en": "Earwax"
+        "en": "Earwax",
+        "whyja": "耳垢は脱水や循環不全の評価と関連性が乏しい。",
+        "whyen": "Earwax has little relevance to assessing dehydration or peripheral perfusion."
       }
     ],
     "correct": 0,
@@ -737,19 +945,27 @@
     "options": [
       {
         "ja": "免疫性血小板減少症",
-        "en": "Immune thrombocytopenia"
+        "en": "Immune thrombocytopenia",
+        "whyja": "全身状態が保たれ、他系統の血球減少がなく血小板のみ著減する所見はITPを支持する。ただし末梢血塗抹と出血重症度を確認し、非典型所見があれば再考する。",
+        "whyen": "An otherwise well child with isolated severe thrombocytopenia suggests immune thrombocytopenia (ITP). Review the blood film and bleeding severity; reconsider if atypical features appear."
       },
       {
         "ja": "鉄欠乏性貧血",
-        "en": "Iron deficiency anemia"
+        "en": "Iron deficiency anemia",
+        "whyja": "鉄欠乏性貧血では主にヘモグロビン低下と小球性変化が問題となり、孤立した高度血小板減少の代表的原因ではない。",
+        "whyen": "Iron deficiency primarily causes anemia with microcytosis and is not a typical explanation for isolated severe thrombocytopenia."
       },
       {
         "ja": "血友病A",
-        "en": "Hemophilia A"
+        "en": "Hemophilia A",
+        "whyja": "血友病Aは凝固第VIII因子の異常で、通常血小板数は保たれる。関節内出血などのパターンを考慮する。",
+        "whyen": "Hemophilia A involves factor VIII deficiency, usually with a normal platelet count; joint and deep-tissue bleeding patterns may be suggestive."
       },
       {
         "ja": "ビタミンK欠乏",
-        "en": "Vitamin K deficiency"
+        "en": "Vitamin K deficiency",
+        "whyja": "ビタミンK欠乏では凝固因子の活性が低下しPT延長などが生じるが、血小板数のみが著減する典型像ではない。",
+        "whyen": "Vitamin K deficiency impairs vitamin K–dependent coagulation factors and may prolong PT but does not typically cause isolated severe thrombocytopenia."
       }
     ],
     "correct": 0,
@@ -765,19 +981,27 @@
     "options": [
       {
         "ja": "鉄欠乏性貧血",
-        "en": "Iron deficiency anemia"
+        "en": "Iron deficiency anemia",
+        "whyja": "小球性貧血と低フェリチンは貯蔵鉄減少を示す。食事歴、出血、成長期の需要、炎症の有無を確認し、鉄補充の反応も評価する。",
+        "whyen": "Microcytosis with low ferritin indicates depleted iron stores. Review diet, bleeding, growth-related requirements, inflammation, and response to iron replacement."
       },
       {
         "ja": "溶血性尿毒症症候群",
-        "en": "Hemolytic uremic syndrome"
+        "en": "Hemolytic uremic syndrome",
+        "whyja": "溶血性尿毒症症候群は溶血性貧血、血小板減少、急性腎障害が主徴で、小球性・低フェリチンという組合せの第一候補ではない。",
+        "whyen": "Hemolytic uremic syndrome primarily involves hemolytic anemia, thrombocytopenia, and acute kidney injury, not the classic pattern of microcytosis with low ferritin."
       },
       {
         "ja": "再生不良性貧血",
-        "en": "Aplastic anemia"
+        "en": "Aplastic anemia",
+        "whyja": "再生不良性貧血は骨髄機能低下による汎血球減少などが中心。鉄欠乏を直接示す低フェリチンの典型原因ではない。",
+        "whyen": "Aplastic anemia typically causes bone marrow failure with multilineage cytopenias, not the characteristic low ferritin of iron deficiency."
       },
       {
         "ja": "真性多血症",
-        "en": "Polycythemia vera"
+        "en": "Polycythemia vera",
+        "whyja": "真性多血症は赤血球量増加を主とする疾患で、貧血の原因として選ぶのは不適切。",
+        "whyen": "Polycythemia vera primarily increases red-cell mass and does not explain anemia."
       }
     ],
     "correct": 0,
@@ -793,19 +1017,27 @@
     "options": [
       {
         "ja": "筋注アドレナリン",
-        "en": "Intramuscular epinephrine"
+        "en": "Intramuscular epinephrine",
+        "whyja": "呼吸器症状と循環不全を伴うアナフィラキシーには大腿前外側への筋注アドレナリンが第一選択。気道・呼吸・循環の管理と反復評価を並行する。",
+        "whyen": "Intramuscular epinephrine into the anterolateral thigh is first-line for anaphylaxis with respiratory or circulatory compromise. Manage airway, breathing, and circulation concurrently."
       },
       {
         "ja": "抗ヒスタミン薬単独",
-        "en": "Antihistamine alone"
+        "en": "Antihistamine alone",
+        "whyja": "抗ヒスタミン薬は皮膚症状の補助療法として用いられることがあるが、気道閉塞やショックを速やかに治療できず、アドレナリンに代わらない。",
+        "whyen": "Antihistamines may relieve cutaneous symptoms but do not rapidly reverse airway compromise or shock and cannot replace epinephrine."
       },
       {
         "ja": "吸入ステロイド単独",
-        "en": "Inhaled steroid alone"
+        "en": "Inhaled steroid alone",
+        "whyja": "吸入ステロイド単独はアナフィラキシーの急性循環不全・気道症状に対する救命治療ではない。",
+        "whyen": "Inhaled corticosteroids alone are not lifesaving treatment for acute anaphylactic airway or circulatory compromise."
       },
       {
         "ja": "解熱薬",
-        "en": "Antipyretic"
+        "en": "Antipyretic",
+        "whyja": "解熱薬はアナフィラキシーの血行動態異常や気道浮腫を治療しない。",
+        "whyen": "Antipyretics do not treat the hemodynamic disturbances or airway edema of anaphylaxis."
       }
     ],
     "correct": 0,
@@ -821,19 +1053,27 @@
     "options": [
       {
         "ja": "反復評価し病態に応じ血管作動薬を検討",
-        "en": "Reassess and consider vasoactive support based on physiology"
+        "en": "Reassess and consider vasoactive support based on physiology",
+        "whyja": "初期輸液後も灌流不良ならショックの病態、輸液反応性、心機能、過剰輸液の徴候を再評価する。必要に応じ血管作動薬や集中治療を検討する。",
+        "whyen": "Persistent poor perfusion after initial fluids requires reassessment of shock physiology, fluid responsiveness, myocardial function, and overload. Consider vasoactive support and intensive care when indicated."
       },
       {
         "ja": "無制限に輸液",
-        "en": "Give unlimited fluids"
+        "en": "Give unlimited fluids",
+        "whyja": "無制限の輸液は体液過剰や肺水腫を招き得る。輸液の追加は反応と有害徴候を確認しながら決定する。",
+        "whyen": "Unlimited fluid administration risks overload and pulmonary edema. Further boluses require assessment of benefit and adverse signs."
       },
       {
         "ja": "血圧だけで判断",
-        "en": "Use blood pressure alone"
+        "en": "Use blood pressure alone",
+        "whyja": "小児ショックでは低血圧が遅れて現れる場合があり、血圧だけでは代償性ショックを見逃す。末梢灌流や意識、尿量も確認する。",
+        "whyen": "Hypotension may occur late in pediatric shock, so blood pressure alone can miss compensated shock. Assess capillary refill, mental status, and urine output."
       },
       {
         "ja": "経過観察のみ",
-        "en": "Observation only"
+        "en": "Observation only",
+        "whyja": "灌流不良が持続している状況で単なる経過観察だけでは不十分。再評価と原因別治療のエスカレーションが必要。",
+        "whyen": "Passive observation is insufficient when perfusion remains poor; repeat assessment and escalation of cause-directed treatment are necessary."
       }
     ],
     "correct": 0,

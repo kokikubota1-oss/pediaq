@@ -23,6 +23,9 @@ def validate(q,existing):
     if not isinstance(q['id'],str) or not re.fullmatch(r'AUTO-[0-9]{8}-[A-Z0-9]+',q['id']):raise ValueError('Bad ID')
     if q['id'] in existing:raise ValueError('Duplicate ID')
     if len(q['options'])!=4 or any(not isinstance(o,dict) or not o.get('ja') or not o.get('en') for o in q['options']):raise ValueError('Invalid options')
+    for i, opt in enumerate(q['options']):
+        if any(not isinstance(opt.get(k),str) or len(opt[k].strip())<80 for k in ('whyja','whyen')):
+            raise ValueError(f'Insufficient individual bilingual explanation for choice {i+1}')
     if type(q['correct']) is not int or q['correct'] not in range(4):raise ValueError('Invalid answer')
     if not isinstance(q['panel_prompts'],list) or len(q['panel_prompts'])!=4 or any(len(x)<30 for x in q['panel_prompts']):raise ValueError('Four distinct scenes required')
     if any(not q[k] or len(str(q[k]))<20 for k in ['ja','en','exja','exen']):raise ValueError('Incomplete bilingual text')
@@ -42,7 +45,7 @@ def generate(topic,today,existing):
     suffix='P' if topic.get('domain')!='Eiken1' else 'E'
     qid=f'AUTO-{today.strftime("%Y%m%d")}-{suffix}'
     if qid in existing:print('Already generated:',qid);return None
-    prompt=f'''Produce ONE rigorous bilingual Japanese/English five-option question for PediaQ about: {topic['topic']}. Domain {topic.get('domain','Pediatrics')}. Target advanced pediatric residency / Japanese pediatric boards, or Eiken Grade 1 C1-C2. A-D are four plausible distinct choices, E=I don't know is added by the app. Make ONE unequivocal correct answer. Avoid patient-identifiable details, fictional source citations, and absolute-word tricks. Return ONLY JSON object with exact fields: id (exactly {qid}), domain (Pediatrics or Eiken1), level (integer 4 or 5), ja (question Japanese), en (same complete question English), options (4 objects with ja and en), correct (zero-based integer), exja (thorough Japanese explanation of all options, at least 120 Japanese characters), exen (equivalent thorough English explanation of all options, at least 120 English characters), panel_prompts (4 distinct English image scene descriptions, each >=30 chars, one per A-D, vivid different characters/action/background, illustrating what that option means; no answer letters, no medical advice text in image). Do not add Markdown fences. Medical content must be conservative and well-established; uncertain clinical claims should not be generated.'''
+    prompt=f'''Produce ONE rigorous bilingual Japanese/English five-option question for PediaQ about: {topic['topic']}. Domain {topic.get('domain','Pediatrics')}. Target advanced pediatric residency / Japanese pediatric boards, or Eiken Grade 1 C1-C2. A-D are four plausible distinct choices, E=I don't know is added by the app. Make ONE unequivocal correct answer. Avoid patient-identifiable details, fictional source citations, and absolute-word tricks. Return ONLY JSON object with exact fields: id (exactly {qid}), domain (Pediatrics or Eiken1), level (integer 4 or 5), ja (question Japanese), en (same complete question English), options (4 objects with ja, en, whyja, whyen; each whyja must be 120+ Japanese characters and each whyen 150+ English characters; independently explain the exact clinical or vocabulary reason every option is right or wrong, relevant pathophysiology, discriminating clues, and pitfalls), correct (zero-based integer), exja (thorough Japanese explanation of all options, at least 250 Japanese characters including differential reasoning, mechanism, and test-relevant clinical pearls), exen (equivalent thorough English explanation of all options, at least 400 English characters with fully equivalent coverage, not a summary), panel_prompts (4 distinct English image scene descriptions, each >=30 chars, one per A-D, vivid different characters/action/background, illustrating what that option means; no answer letters, no medical advice text in image). Do not add Markdown fences. Medical content must be conservative and well-established; uncertain clinical claims should not be generated.'''
     data=api('chat/completions',{'model':MODEL,'temperature':0.3,'response_format':{'type':'json_object'},'messages':[{'role':'system','content':'You are a bilingual pediatric board and Eiken Grade 1 question author. Output valid JSON only.'},{'role':'user','content':prompt}]})
     q=extract_json(data['choices'][0]['message']['content']);return validate(q,existing)
 
@@ -78,5 +81,5 @@ def main():
     temp=QUESTIONS.with_suffix('.json.tmp');temp.write_text(json.dumps(questions,ensure_ascii=False,indent=2)+'\n');temp.replace(QUESTIONS)
     if topic in approved:
         topic['processed']=today.isoformat();INBOX.write_text(json.dumps(approved,ensure_ascii=False,indent=2)+'\n')
-    print('Published locally:',q['id'],q['comic'])
+    print('Published locally:',q['id'],q.get('comic') or '4 attributed online images')
 if __name__=='__main__':main()
