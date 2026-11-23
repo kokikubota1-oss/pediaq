@@ -38,7 +38,7 @@
   function create(questions,history={},options={}){
     const mode=validModes.includes(options.mode)?options.mode:'scheduled';
     const clock=jstNow();
-    const date=options.date||clock.date;
+    const date=options.date||(clock.beforeMorning&&mode==='scheduled'?new Date(Date.parse(clock.date+'T00:00:00+09:00')-86400000).toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'}):clock.date);
     const slot=slots.includes(options.slot)?options.slot:clock.slot;
     const subject=options.subject||'all';
     const seed=options.seed||hash(mode+'|'+date+'|'+slot+'|'+subject+'|pediaq-v12');
