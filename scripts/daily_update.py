@@ -2,6 +2,7 @@
 """PediaQ daily generator. No access to ChatGPT chat history is assumed."""
 import base64, datetime as dt, json, os, pathlib, random, re, sys, time, urllib.request
 ROOT=pathlib.Path(__file__).resolve().parents[1]
+from commons_images import find_option_images
 QUESTIONS=ROOT/'questions.json'
 INBOX=ROOT/'inbox'/'approved_topics.json'
 MODEL=os.getenv('PEDIAQ_TEXT_MODEL','gpt-4o-mini')
@@ -63,8 +64,15 @@ def main():
     topic,approved=choose_topic(today)
     q=generate(topic,today,existing)
     if q is None:return
-    # Fail closed: only publish when the real image exists.
-    q['comic']=generate_comic(q)
+    # Default to reusable Commons photos with attribution for each option.
+    # If four suitably licensed images cannot be found, generate one manga sheet.
+    images=find_option_images(q)
+    if images:
+        q['images']=images
+        print('Selected four Commons images with attribution:',q['id'])
+    else:
+        q['comic']=generate_comic(q)
+        print('Commons coverage incomplete; generated original manga:',q['id'])
     q.pop('panel_prompts')
     questions.append(q)
     temp=QUESTIONS.with_suffix('.json.tmp');temp.write_text(json.dumps(questions,ensure_ascii=False,indent=2)+'\n');temp.replace(QUESTIONS)
