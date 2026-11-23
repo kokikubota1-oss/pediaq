@@ -1372,8 +1372,8 @@
     "id": "E009",
     "domain": "Eiken1",
     "level": 5,
-    "ja": "ウイルスPCR陽性は活動性感染の証拠と混同されるべきではない。空欄には過去分詞の語幹となる動詞を入れる。",
-    "en": "A positive viral PCR result should not be ______d with evidence of active infection.",
+    "ja": "医師はウイルスPCR陽性を活動性感染の証拠と混同してはならない。空欄に最適な動詞は？",
+    "en": "Clinicians should not ______ a positive viral PCR result with proof of active infection.",
     "options": [
       {
         "ja": "corroborate",
