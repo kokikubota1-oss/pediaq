@@ -19,10 +19,15 @@ jobs:
         run: |
           node --check app.js
           node --check practice.js
+          node --check push.js
+          node --check sw.js
+          node --check tests/push.test.js
           node --check tests/practice.test.js
           node --check sync.js
           node --check config.js
       - name: Test practice session planning
-        run: node tests/practice.test.js
+        run: |
+          node tests/practice.test.js
+          node tests/push.test.js
       - name: Compile daily generator
         run: python -m py_compile scripts/daily_update.py
