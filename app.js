@@ -25,12 +25,13 @@ function beginPractice(mode='scheduled',opts={}){
   render();
 }
 function restorePractice(){
-  const params=new URLSearchParams(location.search),slot=params.get('session'),jump=params.get('q');
+  const params=new URLSearchParams(location.search),slot=params.get('session'),jump=params.get('q'),requestedDate=params.get('date'),startFirst=params.get('start')==='1';
   let saved=null;try{saved=JSON.parse(localStorage.getItem(practiceKey)||'null')}catch(e){}
   const clock=window.PediaQPractice.jstNow();
   if(slot&&window.PediaQPractice.slots.includes(slot)){
-    if(!window.PediaQPractice.isValid(saved,questions)||saved.mode!=='scheduled'||saved.slot!==slot||saved.date!==clock.date)
-      saved=window.PediaQPractice.create(questions,history,{mode:'scheduled',slot,date:clock.date});
+    const targetDate=/^\d{4}-\d{2}-\d{2}$/.test(requestedDate||'')?requestedDate:clock.date;
+    if(startFirst||!window.PediaQPractice.isValid(saved,questions)||saved.mode!=='scheduled'||saved.slot!==slot||saved.date!==targetDate)
+      saved=window.PediaQPractice.create(questions,history,{mode:'scheduled',slot,date:targetDate});
   }else if(!window.PediaQPractice.isValid(saved,questions)){
     saved=window.PediaQPractice.create(questions,history,{mode:'scheduled'});
   }else if(saved.mode==='scheduled'){
