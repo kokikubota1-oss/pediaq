@@ -26,8 +26,14 @@ for q in questions:
         illustrated.append(qid)
     else:
         missing.append(qid)
+    images = q.get("images")
+    if images is not None:
+        assert isinstance(images, list) and len(images) == 4, f"Four images required: {qid}"
+        for img in images:
+            assert all(img.get(k) for k in ("url", "source", "license", "creator")), f"Missing attribution: {qid}"
+            assert img["url"].startswith("https://") and img["source"].startswith("https://"), qid
     if qid.startswith("AUTO-"):
-        assert comic, f"Automatically generated question must have a manga: {qid}"
+        assert comic or images, f"Generated question needs attributed images or manga: {qid}"
 print(f"Validated {len(questions)} questions; {len(illustrated)} manga assets; {len(missing)} legacy questions awaiting manga")
 if missing:
     print("Legacy questions without manga:", ", ".join(missing))
