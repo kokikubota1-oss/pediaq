@@ -18,6 +18,9 @@ for q in questions:
     assert isinstance(q.get("options"), list) and len(q["options"]) == 4, qid
     assert type(q.get("correct")) is int and 0 <= q["correct"] < 4, qid
     assert all(isinstance(o.get("ja"), str) and isinstance(o.get("en"), str) for o in q["options"]), qid
+    for i, opt in enumerate(q["options"]):
+        assert isinstance(opt.get("whyja"), str) and len(opt["whyja"]) >= 20, f"Missing Japanese option rationale: {qid} {i}"
+        assert isinstance(opt.get("whyen"), str) and len(opt["whyen"]) >= 20, f"Missing English option rationale: {qid} {i}"
     comic = q.get("comic")
     if comic:
         path = (ROOT / comic).resolve()
