@@ -1,0 +1,36 @@
+name: PediaQ daily question and manga
+on:
+  schedule:
+    - cron: '15 18 * * *' # 03:15 JST; GitHub schedule is UTC and may run late
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pediaq-daily
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Generate and validate question with its real manga image
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PEDIAQ_TEXT_MODEL: gpt-4o-mini
+          PEDIAQ_IMAGE_MODEL: gpt-image-1
+          TZ: Asia/Tokyo
+        run: python scripts/daily_update.py
+      - name: Commit generated assets
+        run: |
+          git config user.name 'pediaq-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add questions.json comics inbox/approved_topics.json
+          if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
+          git commit -m 'PediaQ daily question + manga'
+          git push

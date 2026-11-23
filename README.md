@@ -24,3 +24,10 @@ To deploy, upload all files to a GitHub repository and enable GitHub Pages from 
 HTTPS公開後、`https://YOUR-SITE/?session=07%3A00`、`?session=12%3A00`、`?session=22%3A00` で各時間帯の問題に直接アクセスできます。`?q=QUESTION_ID` で特定問題を指定できます。設定画面の時刻ボタンからリンクをコピーできます。
 
 These are links to PediaQ's locally bundled question bank, NOT the dynamically generated questions in the ChatGPT scheduled tasks. ChatGPT scheduled task instructions can include these links after a real public HTTPS URL exists. There is no answer synchronization or shared database.
+
+
+## v0.6
+- Remove from rotation: excludes a question from future selection while preserving its answer history.
+- Progress tab: restore excluded questions.
+- Only question 1 has an original four-panel manga; questions 2–30 still need illustration assets.
+- Upload all extracted files to the root of the existing GitHub repository, replacing files with matching names.

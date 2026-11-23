@@ -25,7 +25,8 @@
     ],
     "correct": 1,
     "exja": "低ケトン・低FFAとグルカゴン反応は過剰なインスリン作用を支持する。",
-    "exen": "Suppressed ketones and free fatty acids plus a glucagon response support excessive insulin action."
+    "exen": "Suppressed ketones and free fatty acids plus a glucagon response support excessive insulin action.",
+    "comic": "comics/Q001.png"
   },
   {
     "id": "Q002",
