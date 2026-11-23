@@ -198,17 +198,6 @@
       return;
     }
     target.innerHTML = ui +
-        '<p class="muted">' + safe(status) + '</p>' +
-        '<button class="btn" id="cloud-login">Googleでログイン / Sign in with Google</button>';
-      target.querySelector('#cloud-login').onclick = async () => {
-        const {error} = await api.auth.signInWithOAuth({
-          provider:'google', options:{redirectTo:location.origin + location.pathname}
-        });
-        if (error) notify('ログイン失敗 / Sign-in failed: ' + error.message);
-      };
-      return;
-    }
-    target.innerHTML = ui +
       '<p>' + safe(user.email || 'Google user') + '</p>' +
       '<p class="muted" aria-live="polite">' + safe(status) + '</p>' +
       '<div class="actions"><button class="btn" id="cloud-sync">今すぐ同期 / Sync now</button>' +
