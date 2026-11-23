@@ -6,7 +6,7 @@ from commons_images import find_option_images
 QUESTIONS=ROOT/'questions.json'
 INBOX=ROOT/'inbox'/'approved_topics.json'
 MODEL=os.getenv('PEDIAQ_TEXT_MODEL','gpt-4o-mini')
-IMAGE_MODEL=os.getenv('PEDIAQ_IMAGE_MODEL','gpt-image-1')
+IMAGE_MODEL=os.getenv('PEDIAQ_IMAGE_MODEL','gpt-image-1.5')
 KEY=os.getenv('OPENAI_API_KEY')
 
 def api(path, payload, timeout=180):
