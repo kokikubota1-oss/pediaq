@@ -27,7 +27,7 @@ const context={
 };
 vm.createContext(context);
 vm.runInContext(appSource,context);
-setImmediate(async()=>{
+(async()=>{
  await new Promise(resolve=>setImmediate(resolve));
  const session=vm.runInContext('practiceSession',context);
  assert.equal(session.mode,'scheduled');
@@ -58,4 +58,4 @@ setImmediate(async()=>{
  await clickWait;
  assert.equal(opened,pushData.data.url);
  console.log('PediaQ v1.3 push deep-link and service worker tests passed');
-}).catch(e=>{console.error(e);process.exitCode=1});
+})().catch(e=>{console.error(e);process.exitCode=1});
