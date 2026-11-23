@@ -185,7 +185,7 @@
       };
       target.querySelector('#cloud-email-login').onclick = async () => {
         const email = target.querySelector('#cloud-email').value.trim();
-        if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) {
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
           notify('有効なメールアドレスを入力してください / Enter a valid email address');
           return;
         }
