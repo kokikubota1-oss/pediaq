@@ -95,9 +95,17 @@
     return { local, uploads, prefs };
   }
   async function fetchRows(table, columns) {
-    const {data, error} = await api.from(table).select(columns).eq('user_id', user.id);
-    if (error) throw error;
-    return data || [];
+    const rows = [];
+    // Supabase PostgREST commonly limits responses to 1,000 rows.
+    // Pagination prevents older attempts silently disappearing from the local view.
+    for (let start = 0; ; start += 1000) {
+      const {data, error} = await api.from(table).select(columns)
+        .eq('user_id', user.id).range(start, start + 999);
+      if (error) throw error;
+      const page = data || [];
+      rows.push(...page);
+      if (page.length < 1000) return rows;
+    }
   }
   async function synchronize() {
     if (!api || !user || !bridge) return;
@@ -116,7 +124,6 @@
           localStorage.setItem('pediaq-history-backup-' + Date.now(), JSON.stringify(local));
           if (!approve) local = {};
         }
-        localStorage.setItem(OWNER, user.id);
       }
       const [a, p] = await Promise.all([
         fetchRows('pediaq_attempts', 'event_id,question_id,answer,correct,answered_at,rating,rating_updated_at'),
@@ -134,6 +141,7 @@
           result.prefs, {onConflict:'user_id,question_id'});
         if (error) throw error;
       }
+      localStorage.setItem(OWNER, user.id);
       bridge.setHistory(result.local);
       notify('同期済み / Synced: ' + new Date().toLocaleTimeString());
     } catch (error) {
