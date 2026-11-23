@@ -18,7 +18,11 @@ jobs:
       - name: Check JavaScript syntax
         run: |
           node --check app.js
+          node --check practice.js
+          node --check tests/practice.test.js
           node --check sync.js
           node --check config.js
+      - name: Test practice session planning
+        run: node tests/practice.test.js
       - name: Compile daily generator
         run: python -m py_compile scripts/daily_update.py
