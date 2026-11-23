@@ -72,7 +72,7 @@ declare
 begin
  if p_slot not in ('07:00','12:00','22:00') or p_signature is null then return false; end if;
  v_now := now() at time zone 'Asia/Tokyo';
- v_start := p_date::timestamp + p_slot::time;
+ v_start := p_date::timestamp + p_slot::interval;
  if (v_now - v_start) < interval '0 seconds' or (v_now - v_start)> interval '15 minutes' then return false; end if;
  select cron_secret into v_secret from pediaq_internal.push_secrets where id=1;
  if v_secret is null then return false; end if;
