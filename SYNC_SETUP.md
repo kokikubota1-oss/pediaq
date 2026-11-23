@@ -1,27 +1,32 @@
-# PediaQ Cross-Device Sync / 端末間同期の導入
+# PediaQ cross-device synchronization / 端末間同期
 
-This feature is implemented in source but is INACTIVE until a Supabase project is created and configured. Do not claim that the published PediaQ currently syncs history before completing setup and testing.
+## Backend status as of 2026-11-23
+- Supabase project **PediaQ** created in Tokyo (`ap-northeast-1`) with $0/month quoted project creation cost.
+- Project ref: `rcwddzaljmxaaphnjjzf`.
+- Two RLS-protected tables `public.pediaq_attempts` and `public.pediaq_preferences` have been created and verified.
+- Public project URL and **publishable key** are connected in `config.js`. No secret/admin key is committed.
+- Cloud login UI supports email magic links and Google OAuth (Google provider needs separate owner-side setup).
+- Email and Google login have not yet been tested end-to-end; cross-device history synchronization is not yet verified.
 
-## One-time setup / 最初の設定
-1. Create a Supabase project at https://supabase.com/dashboard and open its SQL Editor.
-2. Run the SQL in `supabase/schema.sql` once. This creates an event-based history table and per-question preferences, with user-level Row Level Security.
-3. Under Authentication > Providers > Google, enable Google sign-in using your Google Cloud OAuth client ID and secret. Follow https://supabase.com/docs/guides/auth/social-sign-in/auth-google . Set Google's Authorized redirect URI to the Supabase Auth callback shown in the provider configuration.
-4. Under Supabase Authentication > URL Configuration, set Site URL to `https://kokikubota1-oss.github.io/pediaq/` and add the same URL as an allowed redirect URL.
-5. Copy the Supabase Project URL and **publishable/anon key only** into `config.js`. These are intentionally public values; the service_role key must NEVER be placed in GitHub Pages.
-6. Deploy. On the Progress or Settings tab, choose Sign in with Google on each device.
-7. On the FIRST device, accept the explicitly displayed import prompt to upload the pre-existing local history to your own account. On other devices, sign in with the same Google account and allow the data to load. Verify an answer, confidence rating and excluded-question state synchronize in both directions.
+## Required one-time Auth URL configuration / 認証URLの設定
+Open https://supabase.com/dashboard/project/rcwddzaljmxaaphnjjzf/auth/url-configuration
+- Set **Site URL** to `https://kokikubota1-oss.github.io/pediaq/`
+- Add **Redirect URL** `https://kokikubota1-oss.github.io/pediaq/`
+- Save.
 
-## Safety / 安全
-- Local history is never deleted as part of syncing. A browser backup is made before switching accounts or declining first-time import.
-- Existing browser history stays available offline.
-- Sync stores answer choices, correct/incorrect, confidence, timestamps and excluded questions. It does NOT upload patient notes or medical records.
-- RLS only permits a signed-in user to read/write their own history. Do not disable it.
-- Cloud config remains disabled until all fields are entered; the app still works locally.
-- Export local history from the Progress tab before changing devices or clearing browser data.
+Then open https://kokikubota1-oss.github.io/pediaq/ and select **記録 / Progress**, enter an email address, and select **メールでログイン / Email sign-in**.
+After clicking the link sent by Supabase Auth, return to PediaQ and accept the optional old-history import from the device with your most complete old progress.
+Use the same email login on another device and verify the test answer appears.
 
-## Known limits / 制約
-- Supabase account creation, Google provider credentials and SQL execution require the project owner; the GitHub connector cannot do those actions.
-- A network connection and the Supabase JS library CDN are required for cloud functions.
-- This is an eventual-consistency synchronization model. Two devices simultaneously changing the same rating or exclusion may need a second sync cycle.
-- Legacy history is stored in localStorage and belongs to the browser profile until imported. For shared browsers, sign out and clear data according to your privacy preferences.
-- Supabase free-tier capacity and suspension rules are governed by Supabase's current service terms.
+## Google sign-in (optional) / Googleログイン
+If you prefer one-tap Google login, configure the Google provider through Supabase Authentication > Providers > Google and a Google Cloud OAuth client.
+See https://supabase.com/docs/guides/auth/social-login/auth-google
+Only the account owner can authorize Google Cloud credentials; never paste them into the public repository.
+
+## Security and limitations
+- Only question IDs, answers, correctness, confidence, timestamps and exclusions are synced. No clinical notes or patient identifiers.
+- The old browser history is retained locally. Export it from Progress for an extra backup before migrating.
+- Anon users have no table permissions, and authenticated users are restricted by `auth.uid() = user_id` policies.
+- Both online devices can edit; synchronization is eventual, with per-attempt event IDs and timestamps.
+- Authentication and cross-device behavior require real user browser testing.
+- API billing is separate from the $0/month project quote.
