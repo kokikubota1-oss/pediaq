@@ -1079,5 +1079,365 @@
     "correct": 0,
     "exja": "輸液反応性、過剰輸液、ショック病態を再評価し次の治療を決める。",
     "exen": "Reassess fluid responsiveness, overload, and shock physiology before escalating treatment."
+  },
+  {
+    "id": "E001",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "別個の検査結果が疑われた診断を裏付けた。空欄に最適な動詞は？",
+    "en": "Independent laboratory evidence helped ______ the suspected diagnosis.",
+    "options": [
+      {
+        "ja": "preclude",
+        "en": "preclude",
+        "whyja": "preclude /prɪˈkluːd/ は「あらかじめ妨げる・不可能にする」。この文が要求する「別の証拠で裏付ける」とは異なるため、ここでは不適切。 Preclude marks a barrier that prevents something from happening. 小児科の用例：Instability may preclude transfer for elective imaging. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "preclude /prɪˈkluːd/ means “prevent an action or outcome from being possible.” This does not express the required meaning of “confirm using independent supporting evidence” in this context. Preclude marks a barrier that prevents something from happening. Pediatric example: Instability may preclude transfer for elective imaging. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "corroborate",
+        "en": "corroborate",
+        "whyja": "corroborate /kəˈrɑːbəreɪt/ は「別の証拠で裏付ける」。この文で要求される行為と一致する。 Independent evidence corroborates a hypothesis rather than merely repeating it. 小児科の用例：The culture result corroborated the initial diagnosis. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "corroborate /kəˈrɑːbəreɪt/ means “confirm using independent supporting evidence.” This fits the specific action required by the sentence. Independent evidence corroborates a hypothesis rather than merely repeating it. Pediatric example: The culture result corroborated the initial diagnosis. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "conflate",
+        "en": "conflate",
+        "whyja": "conflate /kənˈfleɪt/ は「異なるものを混同する」。この文が要求する「別の証拠で裏付ける」とは異なるため、ここでは不適切。 Conflate is frequently used to warn against combining distinct concepts. 小児科の用例：Do not conflate viral DNA detection with active infection. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "conflate /kənˈfleɪt/ means “mistakenly treat distinct things as the same.” This does not express the required meaning of “confirm using independent supporting evidence” in this context. Conflate is frequently used to warn against combining distinct concepts. Pediatric example: Do not conflate viral DNA detection with active infection. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "extrapolate",
+        "en": "extrapolate",
+        "whyja": "extrapolate /ɪkˈstræpəleɪt/ は「既知範囲の外へ推定する」。この文が要求する「別の証拠で裏付ける」とは異なるため、ここでは不適切。 Extrapolate goes beyond the observed range, unlike interpolation between observed points. 小児科の用例：We must not extrapolate adult dosing data to neonates without evidence. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "extrapolate /ɪkˈstræpəleɪt/ means “estimate beyond observed data.” This does not express the required meaning of “confirm using independent supporting evidence” in this context. Extrapolate goes beyond the observed range, unlike interpolation between observed points. Pediatric example: We must not extrapolate adult dosing data to neonates without evidence. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 1,
+    "exja": "正答は corroborate /kəˈrɑːbəreɪt/。「別の証拠で裏付ける」を意味する。Independent evidence corroborates a hypothesis rather than merely repeating it. 小児科の例文：The culture result corroborated the initial diagnosis. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is corroborate /kəˈrɑːbəreɪt/, meaning “confirm using independent supporting evidence.” Independent evidence corroborates a hypothesis rather than merely repeating it. Pediatric example: The culture result corroborated the initial diagnosis. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E002",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "処方前に薬剤リストを細部まで精査する必要がある。空欄に最適な動詞は？",
+    "en": "Before prescribing, the physician must ______ the medication list for errors.",
+    "options": [
+      {
+        "ja": "reconcile",
+        "en": "reconcile",
+        "whyja": "reconcile /ˈrekənsaɪl/ は「食い違いを照合・整合する」。この文が要求する「細部まで精査する」とは異なるため、ここでは不適切。 Medication reconciliation compares different lists and resolves discrepancies. 小児科の用例：The pharmacist reconciled the discharge prescriptions. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "reconcile /ˈrekənsaɪl/ means “resolve differences and bring records into agreement.” This does not express the required meaning of “examine carefully and critically” in this context. Medication reconciliation compares different lists and resolves discrepancies. Pediatric example: The pharmacist reconciled the discharge prescriptions. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "mitigate",
+        "en": "mitigate",
+        "whyja": "mitigate /ˈmɪtɪɡeɪt/ は「悪影響を軽減する」。この文が要求する「細部まで精査する」とは異なるため、ここでは不適切。 Mitigate reduces harmful impact; it does not necessarily eliminate a risk. 小児科の用例：Early treatment may mitigate the risk of complications. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "mitigate /ˈmɪtɪɡeɪt/ means “reduce the severity or consequences of harm.” This does not express the required meaning of “examine carefully and critically” in this context. Mitigate reduces harmful impact; it does not necessarily eliminate a risk. Pediatric example: Early treatment may mitigate the risk of complications. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "scrutinize",
+        "en": "scrutinize",
+        "whyja": "scrutinize /ˈskruːtənaɪz/ は「細部まで精査する」。この文で要求される行為と一致する。 Scrutinize requires a deliberate close inspection rather than a broad impression. 小児科の用例：The resident scrutinized the medication orders. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "scrutinize /ˈskruːtənaɪz/ means “examine carefully and critically.” This fits the specific action required by the sentence. Scrutinize requires a deliberate close inspection rather than a broad impression. Pediatric example: The resident scrutinized the medication orders. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "preclude",
+        "en": "preclude",
+        "whyja": "preclude /prɪˈkluːd/ は「あらかじめ妨げる・不可能にする」。この文が要求する「細部まで精査する」とは異なるため、ここでは不適切。 Preclude marks a barrier that prevents something from happening. 小児科の用例：Instability may preclude transfer for elective imaging. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "preclude /prɪˈkluːd/ means “prevent an action or outcome from being possible.” This does not express the required meaning of “examine carefully and critically” in this context. Preclude marks a barrier that prevents something from happening. Pediatric example: Instability may preclude transfer for elective imaging. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 2,
+    "exja": "正答は scrutinize /ˈskruːtənaɪz/。「細部まで精査する」を意味する。Scrutinize requires a deliberate close inspection rather than a broad impression. 小児科の例文：The resident scrutinized the medication orders. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is scrutinize /ˈskruːtənaɪz/, meaning “examine carefully and critically.” Scrutinize requires a deliberate close inspection rather than a broad impression. Pediatric example: The resident scrutinized the medication orders. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E003",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "検証なしに成人試験の結果を超早産児へ外挿することは危険である。空欄に最適な動詞は？",
+    "en": "It is unsafe to ______ adult clinical trial findings to extremely premature infants without validation.",
+    "options": [
+      {
+        "ja": "extrapolate",
+        "en": "extrapolate",
+        "whyja": "extrapolate /ɪkˈstræpəleɪt/ は「既知範囲の外へ推定する」。この文で要求される行為と一致する。 Extrapolate goes beyond the observed range, unlike interpolation between observed points. 小児科の用例：We must not extrapolate adult dosing data to neonates without evidence. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "extrapolate /ɪkˈstræpəleɪt/ means “estimate beyond observed data.” This fits the specific action required by the sentence. Extrapolate goes beyond the observed range, unlike interpolation between observed points. Pediatric example: We must not extrapolate adult dosing data to neonates without evidence. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "reconcile",
+        "en": "reconcile",
+        "whyja": "reconcile /ˈrekənsaɪl/ は「食い違いを照合・整合する」。この文が要求する「既知範囲の外へ推定する」とは異なるため、ここでは不適切。 Medication reconciliation compares different lists and resolves discrepancies. 小児科の用例：The pharmacist reconciled the discharge prescriptions. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "reconcile /ˈrekənsaɪl/ means “resolve differences and bring records into agreement.” This does not express the required meaning of “estimate beyond observed data” in this context. Medication reconciliation compares different lists and resolves discrepancies. Pediatric example: The pharmacist reconciled the discharge prescriptions. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "corroborate",
+        "en": "corroborate",
+        "whyja": "corroborate /kəˈrɑːbəreɪt/ は「別の証拠で裏付ける」。この文が要求する「既知範囲の外へ推定する」とは異なるため、ここでは不適切。 Independent evidence corroborates a hypothesis rather than merely repeating it. 小児科の用例：The culture result corroborated the initial diagnosis. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "corroborate /kəˈrɑːbəreɪt/ means “confirm using independent supporting evidence.” This does not express the required meaning of “estimate beyond observed data” in this context. Independent evidence corroborates a hypothesis rather than merely repeating it. Pediatric example: The culture result corroborated the initial diagnosis. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "delineate",
+        "en": "delineate",
+        "whyja": "delineate /dɪˈlɪnieɪt/ は「輪郭・特徴を明確に示す」。この文が要求する「既知範囲の外へ推定する」とは異なるため、ここでは不適切。 Delineate identifies boundaries and defines specific contours. 小児科の用例：Ultrasound delineated the boundaries of the abscess. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "delineate /dɪˈlɪnieɪt/ means “describe or show boundaries or features precisely.” This does not express the required meaning of “estimate beyond observed data” in this context. Delineate identifies boundaries and defines specific contours. Pediatric example: Ultrasound delineated the boundaries of the abscess. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 0,
+    "exja": "正答は extrapolate /ɪkˈstræpəleɪt/。「既知範囲の外へ推定する」を意味する。Extrapolate goes beyond the observed range, unlike interpolation between observed points. 小児科の例文：We must not extrapolate adult dosing data to neonates without evidence. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is extrapolate /ɪkˈstræpəleɪt/, meaning “estimate beyond observed data.” Extrapolate goes beyond the observed range, unlike interpolation between observed points. Pediatric example: We must not extrapolate adult dosing data to neonates without evidence. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E004",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "退院前に食い違う二つの薬剤リストを照合して整合させる必要がある。空欄に最適な動詞は？",
+    "en": "Before discharge, the team must ______ two conflicting lists of medications.",
+    "options": [
+      {
+        "ja": "elucidate",
+        "en": "elucidate",
+        "whyja": "elucidate /ɪˈluːsɪdeɪt/ は「複雑な仕組みを解明する」。この文が要求する「食い違いを照合・整合する」とは異なるため、ここでは不適切。 Elucidate emphasizes making something understandable, often an underlying mechanism. 小児科の用例：Sequencing helped elucidate the molecular mechanism. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "elucidate /ɪˈluːsɪdeɪt/ means “make a complex issue clear through explanation or investigation.” This does not express the required meaning of “resolve differences and bring records into agreement” in this context. Elucidate emphasizes making something understandable, often an underlying mechanism. Pediatric example: Sequencing helped elucidate the molecular mechanism. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "preclude",
+        "en": "preclude",
+        "whyja": "preclude /prɪˈkluːd/ は「あらかじめ妨げる・不可能にする」。この文が要求する「食い違いを照合・整合する」とは異なるため、ここでは不適切。 Preclude marks a barrier that prevents something from happening. 小児科の用例：Instability may preclude transfer for elective imaging. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "preclude /prɪˈkluːd/ means “prevent an action or outcome from being possible.” This does not express the required meaning of “resolve differences and bring records into agreement” in this context. Preclude marks a barrier that prevents something from happening. Pediatric example: Instability may preclude transfer for elective imaging. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "substantiate",
+        "en": "substantiate",
+        "whyja": "substantiate /səbˈstænʃieɪt/ は「具体的な根拠で立証する」。この文が要求する「食い違いを照合・整合する」とは異なるため、ここでは不適切。 Substantiate emphasizes providing adequate evidence for a claim. 小児科の用例：The results substantiated the proposed mechanism. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "substantiate /səbˈstænʃieɪt/ means “support a claim with sufficient evidence.” This does not express the required meaning of “resolve differences and bring records into agreement” in this context. Substantiate emphasizes providing adequate evidence for a claim. Pediatric example: The results substantiated the proposed mechanism. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "reconcile",
+        "en": "reconcile",
+        "whyja": "reconcile /ˈrekənsaɪl/ は「食い違いを照合・整合する」。この文で要求される行為と一致する。 Medication reconciliation compares different lists and resolves discrepancies. 小児科の用例：The pharmacist reconciled the discharge prescriptions. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "reconcile /ˈrekənsaɪl/ means “resolve differences and bring records into agreement.” This fits the specific action required by the sentence. Medication reconciliation compares different lists and resolves discrepancies. Pediatric example: The pharmacist reconciled the discharge prescriptions. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 3,
+    "exja": "正答は reconcile /ˈrekənsaɪl/。「食い違いを照合・整合する」を意味する。Medication reconciliation compares different lists and resolves discrepancies. 小児科の例文：The pharmacist reconciled the discharge prescriptions. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is reconcile /ˈrekənsaɪl/, meaning “resolve differences and bring records into agreement.” Medication reconciliation compares different lists and resolves discrepancies. Pediatric example: The pharmacist reconciled the discharge prescriptions. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E005",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "その手順は敗血症認識の遅れによる悪影響を軽減する。空欄に最適な動詞は？",
+    "en": "The protocol aims to ______ the harmful impact of delayed sepsis recognition.",
+    "options": [
+      {
+        "ja": "delineate",
+        "en": "delineate",
+        "whyja": "delineate /dɪˈlɪnieɪt/ は「輪郭・特徴を明確に示す」。この文が要求する「悪影響を軽減する」とは異なるため、ここでは不適切。 Delineate identifies boundaries and defines specific contours. 小児科の用例：Ultrasound delineated the boundaries of the abscess. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "delineate /dɪˈlɪnieɪt/ means “describe or show boundaries or features precisely.” This does not express the required meaning of “reduce the severity or consequences of harm” in this context. Delineate identifies boundaries and defines specific contours. Pediatric example: Ultrasound delineated the boundaries of the abscess. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "mitigate",
+        "en": "mitigate",
+        "whyja": "mitigate /ˈmɪtɪɡeɪt/ は「悪影響を軽減する」。この文で要求される行為と一致する。 Mitigate reduces harmful impact; it does not necessarily eliminate a risk. 小児科の用例：Early treatment may mitigate the risk of complications. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "mitigate /ˈmɪtɪɡeɪt/ means “reduce the severity or consequences of harm.” This fits the specific action required by the sentence. Mitigate reduces harmful impact; it does not necessarily eliminate a risk. Pediatric example: Early treatment may mitigate the risk of complications. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "conflate",
+        "en": "conflate",
+        "whyja": "conflate /kənˈfleɪt/ は「異なるものを混同する」。この文が要求する「悪影響を軽減する」とは異なるため、ここでは不適切。 Conflate is frequently used to warn against combining distinct concepts. 小児科の用例：Do not conflate viral DNA detection with active infection. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "conflate /kənˈfleɪt/ means “mistakenly treat distinct things as the same.” This does not express the required meaning of “reduce the severity or consequences of harm” in this context. Conflate is frequently used to warn against combining distinct concepts. Pediatric example: Do not conflate viral DNA detection with active infection. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "extrapolate",
+        "en": "extrapolate",
+        "whyja": "extrapolate /ɪkˈstræpəleɪt/ は「既知範囲の外へ推定する」。この文が要求する「悪影響を軽減する」とは異なるため、ここでは不適切。 Extrapolate goes beyond the observed range, unlike interpolation between observed points. 小児科の用例：We must not extrapolate adult dosing data to neonates without evidence. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "extrapolate /ɪkˈstræpəleɪt/ means “estimate beyond observed data.” This does not express the required meaning of “reduce the severity or consequences of harm” in this context. Extrapolate goes beyond the observed range, unlike interpolation between observed points. Pediatric example: We must not extrapolate adult dosing data to neonates without evidence. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 1,
+    "exja": "正答は mitigate /ˈmɪtɪɡeɪt/。「悪影響を軽減する」を意味する。Mitigate reduces harmful impact; it does not necessarily eliminate a risk. 小児科の例文：Early treatment may mitigate the risk of complications. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is mitigate /ˈmɪtɪɡeɪt/, meaning “reduce the severity or consequences of harm.” Mitigate reduces harmful impact; it does not necessarily eliminate a risk. Pediatric example: Early treatment may mitigate the risk of complications. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E006",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "追加の分子研究でこの稀な症候群の機序を解明できる可能性がある。空欄に最適な動詞は？",
+    "en": "Further molecular studies may ______ the mechanism of this rare syndrome.",
+    "options": [
+      {
+        "ja": "preclude",
+        "en": "preclude",
+        "whyja": "preclude /prɪˈkluːd/ は「あらかじめ妨げる・不可能にする」。この文が要求する「複雑な仕組みを解明する」とは異なるため、ここでは不適切。 Preclude marks a barrier that prevents something from happening. 小児科の用例：Instability may preclude transfer for elective imaging. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "preclude /prɪˈkluːd/ means “prevent an action or outcome from being possible.” This does not express the required meaning of “make a complex issue clear through explanation or investigation” in this context. Preclude marks a barrier that prevents something from happening. Pediatric example: Instability may preclude transfer for elective imaging. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "substantiate",
+        "en": "substantiate",
+        "whyja": "substantiate /səbˈstænʃieɪt/ は「具体的な根拠で立証する」。この文が要求する「複雑な仕組みを解明する」とは異なるため、ここでは不適切。 Substantiate emphasizes providing adequate evidence for a claim. 小児科の用例：The results substantiated the proposed mechanism. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "substantiate /səbˈstænʃieɪt/ means “support a claim with sufficient evidence.” This does not express the required meaning of “make a complex issue clear through explanation or investigation” in this context. Substantiate emphasizes providing adequate evidence for a claim. Pediatric example: The results substantiated the proposed mechanism. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "elucidate",
+        "en": "elucidate",
+        "whyja": "elucidate /ɪˈluːsɪdeɪt/ は「複雑な仕組みを解明する」。この文で要求される行為と一致する。 Elucidate emphasizes making something understandable, often an underlying mechanism. 小児科の用例：Sequencing helped elucidate the molecular mechanism. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "elucidate /ɪˈluːsɪdeɪt/ means “make a complex issue clear through explanation or investigation.” This fits the specific action required by the sentence. Elucidate emphasizes making something understandable, often an underlying mechanism. Pediatric example: Sequencing helped elucidate the molecular mechanism. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "reconcile",
+        "en": "reconcile",
+        "whyja": "reconcile /ˈrekənsaɪl/ は「食い違いを照合・整合する」。この文が要求する「複雑な仕組みを解明する」とは異なるため、ここでは不適切。 Medication reconciliation compares different lists and resolves discrepancies. 小児科の用例：The pharmacist reconciled the discharge prescriptions. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "reconcile /ˈrekənsaɪl/ means “resolve differences and bring records into agreement.” This does not express the required meaning of “make a complex issue clear through explanation or investigation” in this context. Medication reconciliation compares different lists and resolves discrepancies. Pediatric example: The pharmacist reconciled the discharge prescriptions. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 2,
+    "exja": "正答は elucidate /ɪˈluːsɪdeɪt/。「複雑な仕組みを解明する」を意味する。Elucidate emphasizes making something understandable, often an underlying mechanism. 小児科の例文：Sequencing helped elucidate the molecular mechanism. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is elucidate /ɪˈluːsɪdeɪt/, meaning “make a complex issue clear through explanation or investigation.” Elucidate emphasizes making something understandable, often an underlying mechanism. Pediatric example: Sequencing helped elucidate the molecular mechanism. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E007",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "高度の循環動態不安定が緊急性の低い画像検査搬送を妨げる可能性がある。空欄に最適な動詞は？",
+    "en": "Severe hemodynamic instability may ______ nonurgent transport for imaging.",
+    "options": [
+      {
+        "ja": "preclude",
+        "en": "preclude",
+        "whyja": "preclude /prɪˈkluːd/ は「あらかじめ妨げる・不可能にする」。この文で要求される行為と一致する。 Preclude marks a barrier that prevents something from happening. 小児科の用例：Instability may preclude transfer for elective imaging. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "preclude /prɪˈkluːd/ means “prevent an action or outcome from being possible.” This fits the specific action required by the sentence. Preclude marks a barrier that prevents something from happening. Pediatric example: Instability may preclude transfer for elective imaging. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "mitigate",
+        "en": "mitigate",
+        "whyja": "mitigate /ˈmɪtɪɡeɪt/ は「悪影響を軽減する」。この文が要求する「あらかじめ妨げる・不可能にする」とは異なるため、ここでは不適切。 Mitigate reduces harmful impact; it does not necessarily eliminate a risk. 小児科の用例：Early treatment may mitigate the risk of complications. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "mitigate /ˈmɪtɪɡeɪt/ means “reduce the severity or consequences of harm.” This does not express the required meaning of “prevent an action or outcome from being possible” in this context. Mitigate reduces harmful impact; it does not necessarily eliminate a risk. Pediatric example: Early treatment may mitigate the risk of complications. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "corroborate",
+        "en": "corroborate",
+        "whyja": "corroborate /kəˈrɑːbəreɪt/ は「別の証拠で裏付ける」。この文が要求する「あらかじめ妨げる・不可能にする」とは異なるため、ここでは不適切。 Independent evidence corroborates a hypothesis rather than merely repeating it. 小児科の用例：The culture result corroborated the initial diagnosis. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "corroborate /kəˈrɑːbəreɪt/ means “confirm using independent supporting evidence.” This does not express the required meaning of “prevent an action or outcome from being possible” in this context. Independent evidence corroborates a hypothesis rather than merely repeating it. Pediatric example: The culture result corroborated the initial diagnosis. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "delineate",
+        "en": "delineate",
+        "whyja": "delineate /dɪˈlɪnieɪt/ は「輪郭・特徴を明確に示す」。この文が要求する「あらかじめ妨げる・不可能にする」とは異なるため、ここでは不適切。 Delineate identifies boundaries and defines specific contours. 小児科の用例：Ultrasound delineated the boundaries of the abscess. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "delineate /dɪˈlɪnieɪt/ means “describe or show boundaries or features precisely.” This does not express the required meaning of “prevent an action or outcome from being possible” in this context. Delineate identifies boundaries and defines specific contours. Pediatric example: Ultrasound delineated the boundaries of the abscess. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 0,
+    "exja": "正答は preclude /prɪˈkluːd/。「あらかじめ妨げる・不可能にする」を意味する。Preclude marks a barrier that prevents something from happening. 小児科の例文：Instability may preclude transfer for elective imaging. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is preclude /prɪˈkluːd/, meaning “prevent an action or outcome from being possible.” Preclude marks a barrier that prevents something from happening. Pediatric example: Instability may preclude transfer for elective imaging. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E008",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "高解像度画像は病変の解剖学的境界を明確に描出するのに役立つ。空欄に最適な動詞は？",
+    "en": "High-resolution imaging can help ______ the anatomical margins of a lesion.",
+    "options": [
+      {
+        "ja": "reconcile",
+        "en": "reconcile",
+        "whyja": "reconcile /ˈrekənsaɪl/ は「食い違いを照合・整合する」。この文が要求する「輪郭・特徴を明確に示す」とは異なるため、ここでは不適切。 Medication reconciliation compares different lists and resolves discrepancies. 小児科の用例：The pharmacist reconciled the discharge prescriptions. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "reconcile /ˈrekənsaɪl/ means “resolve differences and bring records into agreement.” This does not express the required meaning of “describe or show boundaries or features precisely” in this context. Medication reconciliation compares different lists and resolves discrepancies. Pediatric example: The pharmacist reconciled the discharge prescriptions. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "extrapolate",
+        "en": "extrapolate",
+        "whyja": "extrapolate /ɪkˈstræpəleɪt/ は「既知範囲の外へ推定する」。この文が要求する「輪郭・特徴を明確に示す」とは異なるため、ここでは不適切。 Extrapolate goes beyond the observed range, unlike interpolation between observed points. 小児科の用例：We must not extrapolate adult dosing data to neonates without evidence. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "extrapolate /ɪkˈstræpəleɪt/ means “estimate beyond observed data.” This does not express the required meaning of “describe or show boundaries or features precisely” in this context. Extrapolate goes beyond the observed range, unlike interpolation between observed points. Pediatric example: We must not extrapolate adult dosing data to neonates without evidence. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "elucidate",
+        "en": "elucidate",
+        "whyja": "elucidate /ɪˈluːsɪdeɪt/ は「複雑な仕組みを解明する」。この文が要求する「輪郭・特徴を明確に示す」とは異なるため、ここでは不適切。 Elucidate emphasizes making something understandable, often an underlying mechanism. 小児科の用例：Sequencing helped elucidate the molecular mechanism. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "elucidate /ɪˈluːsɪdeɪt/ means “make a complex issue clear through explanation or investigation.” This does not express the required meaning of “describe or show boundaries or features precisely” in this context. Elucidate emphasizes making something understandable, often an underlying mechanism. Pediatric example: Sequencing helped elucidate the molecular mechanism. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "delineate",
+        "en": "delineate",
+        "whyja": "delineate /dɪˈlɪnieɪt/ は「輪郭・特徴を明確に示す」。この文で要求される行為と一致する。 Delineate identifies boundaries and defines specific contours. 小児科の用例：Ultrasound delineated the boundaries of the abscess. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "delineate /dɪˈlɪnieɪt/ means “describe or show boundaries or features precisely.” This fits the specific action required by the sentence. Delineate identifies boundaries and defines specific contours. Pediatric example: Ultrasound delineated the boundaries of the abscess. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 3,
+    "exja": "正答は delineate /dɪˈlɪnieɪt/。「輪郭・特徴を明確に示す」を意味する。Delineate identifies boundaries and defines specific contours. 小児科の例文：Ultrasound delineated the boundaries of the abscess. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is delineate /dɪˈlɪnieɪt/, meaning “describe or show boundaries or features precisely.” Delineate identifies boundaries and defines specific contours. Pediatric example: Ultrasound delineated the boundaries of the abscess. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E009",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "医師はウイルスPCR陽性を活動性感染の証拠と混同してはならない。空欄に最適な動詞は？",
+    "en": "Clinicians should not ______ a positive viral PCR result with proof of active infection.",
+    "options": [
+      {
+        "ja": "corroborate",
+        "en": "corroborate",
+        "whyja": "corroborate /kəˈrɑːbəreɪt/ は「別の証拠で裏付ける」。この文が要求する「異なるものを混同する」とは異なるため、ここでは不適切。 Independent evidence corroborates a hypothesis rather than merely repeating it. 小児科の用例：The culture result corroborated the initial diagnosis. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "corroborate /kəˈrɑːbəreɪt/ means “confirm using independent supporting evidence.” This does not express the required meaning of “mistakenly treat distinct things as the same” in this context. Independent evidence corroborates a hypothesis rather than merely repeating it. Pediatric example: The culture result corroborated the initial diagnosis. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "conflate",
+        "en": "conflate",
+        "whyja": "conflate /kənˈfleɪt/ は「異なるものを混同する」。この文で要求される行為と一致する。 Conflate is frequently used to warn against combining distinct concepts. 小児科の用例：Do not conflate viral DNA detection with active infection. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "conflate /kənˈfleɪt/ means “mistakenly treat distinct things as the same.” This fits the specific action required by the sentence. Conflate is frequently used to warn against combining distinct concepts. Pediatric example: Do not conflate viral DNA detection with active infection. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "preclude",
+        "en": "preclude",
+        "whyja": "preclude /prɪˈkluːd/ は「あらかじめ妨げる・不可能にする」。この文が要求する「異なるものを混同する」とは異なるため、ここでは不適切。 Preclude marks a barrier that prevents something from happening. 小児科の用例：Instability may preclude transfer for elective imaging. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "preclude /prɪˈkluːd/ means “prevent an action or outcome from being possible.” This does not express the required meaning of “mistakenly treat distinct things as the same” in this context. Preclude marks a barrier that prevents something from happening. Pediatric example: Instability may preclude transfer for elective imaging. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "scrutinize",
+        "en": "scrutinize",
+        "whyja": "scrutinize /ˈskruːtənaɪz/ は「細部まで精査する」。この文が要求する「異なるものを混同する」とは異なるため、ここでは不適切。 Scrutinize requires a deliberate close inspection rather than a broad impression. 小児科の用例：The resident scrutinized the medication orders. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "scrutinize /ˈskruːtənaɪz/ means “examine carefully and critically.” This does not express the required meaning of “mistakenly treat distinct things as the same” in this context. Scrutinize requires a deliberate close inspection rather than a broad impression. Pediatric example: The resident scrutinized the medication orders. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 1,
+    "exja": "正答は conflate /kənˈfleɪt/。「異なるものを混同する」を意味する。Conflate is frequently used to warn against combining distinct concepts. 小児科の例文：Do not conflate viral DNA detection with active infection. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is conflate /kənˈfleɪt/, meaning “mistakenly treat distinct things as the same.” Conflate is frequently used to warn against combining distinct concepts. Pediatric example: Do not conflate viral DNA detection with active infection. Compare the semantic roles and usage of each alternative carefully."
+  },
+  {
+    "id": "E010",
+    "domain": "Eiken1",
+    "level": 5,
+    "ja": "長期転帰改善という主張を立証するには強固なデータが必要である。空欄に最適な動詞は？",
+    "en": "The authors need robust data to ______ their claim of improved long-term outcomes.",
+    "options": [
+      {
+        "ja": "delineate",
+        "en": "delineate",
+        "whyja": "delineate /dɪˈlɪnieɪt/ は「輪郭・特徴を明確に示す」。この文が要求する「具体的な根拠で立証する」とは異なるため、ここでは不適切。 Delineate identifies boundaries and defines specific contours. 小児科の用例：Ultrasound delineated the boundaries of the abscess. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "delineate /dɪˈlɪnieɪt/ means “describe or show boundaries or features precisely.” This does not express the required meaning of “support a claim with sufficient evidence” in this context. Delineate identifies boundaries and defines specific contours. Pediatric example: Ultrasound delineated the boundaries of the abscess. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "reconcile",
+        "en": "reconcile",
+        "whyja": "reconcile /ˈrekənsaɪl/ は「食い違いを照合・整合する」。この文が要求する「具体的な根拠で立証する」とは異なるため、ここでは不適切。 Medication reconciliation compares different lists and resolves discrepancies. 小児科の用例：The pharmacist reconciled the discharge prescriptions. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "reconcile /ˈrekənsaɪl/ means “resolve differences and bring records into agreement.” This does not express the required meaning of “support a claim with sufficient evidence” in this context. Medication reconciliation compares different lists and resolves discrepancies. Pediatric example: The pharmacist reconciled the discharge prescriptions. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "substantiate",
+        "en": "substantiate",
+        "whyja": "substantiate /səbˈstænʃieɪt/ は「具体的な根拠で立証する」。この文で要求される行為と一致する。 Substantiate emphasizes providing adequate evidence for a claim. 小児科の用例：The results substantiated the proposed mechanism. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "substantiate /səbˈstænʃieɪt/ means “support a claim with sufficient evidence.” This fits the specific action required by the sentence. Substantiate emphasizes providing adequate evidence for a claim. Pediatric example: The results substantiated the proposed mechanism. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      },
+      {
+        "ja": "extrapolate",
+        "en": "extrapolate",
+        "whyja": "extrapolate /ɪkˈstræpəleɪt/ は「既知範囲の外へ推定する」。この文が要求する「具体的な根拠で立証する」とは異なるため、ここでは不適切。 Extrapolate goes beyond the observed range, unlike interpolation between observed points. 小児科の用例：We must not extrapolate adult dosing data to neonates without evidence. 類義語の近さだけで決めず、目的語と文脈の組合せも確認する。",
+        "whyen": "extrapolate /ɪkˈstræpəleɪt/ means “estimate beyond observed data.” This does not express the required meaning of “support a claim with sufficient evidence” in this context. Extrapolate goes beyond the observed range, unlike interpolation between observed points. Pediatric example: We must not extrapolate adult dosing data to neonates without evidence. Compare the meaning and the typical object of the verb, not only its broad similarity to another option."
+      }
+    ],
+    "correct": 2,
+    "exja": "正答は substantiate /səbˈstænʃieɪt/。「具体的な根拠で立証する」を意味する。Substantiate emphasizes providing adequate evidence for a claim. 小児科の例文：The results substantiated the proposed mechanism. 全ての選択肢を比べ、意図された行為と対象が一致するか確認する。",
+    "exen": "The correct answer is substantiate /səbˈstænʃieɪt/, meaning “support a claim with sufficient evidence.” Substantiate emphasizes providing adequate evidence for a claim. Pediatric example: The results substantiated the proposed mechanism. Compare the semantic roles and usage of each alternative carefully."
   }
 ]
