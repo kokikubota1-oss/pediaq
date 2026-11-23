@@ -170,6 +170,35 @@
     if (!user) {
       target.innerHTML = ui +
         '<p class="muted">' + safe(status) + '</p>' +
+        '<button class="btn" id="cloud-login">Googleでログイン / Sign in with Google</button>' +
+        '<p class="muted">Googleログインの設定前でも、メール認証を選べます。<br>' +
+        'You can use email sign-in before Google OAuth is configured.</p>' +
+        '<label for="cloud-email">メールアドレス / Email address</label>' +
+        '<input id="cloud-email" type="email" autocomplete="email" placeholder="you@example.com" ' +
+        'style="display:block;width:100%;padding:12px;margin:8px 0;border-radius:9px;border:1px solid #cad8e2">' +
+        '<button class="btn secondary" id="cloud-email-login">メールでログイン / Email sign-in</button>';
+      target.querySelector('#cloud-login').onclick = async () => {
+        const {error} = await api.auth.signInWithOAuth({
+          provider:'google', options:{redirectTo:location.origin + location.pathname}
+        });
+        if (error) notify('ログイン失敗 / Sign-in failed: ' + error.message);
+      };
+      target.querySelector('#cloud-email-login').onclick = async () => {
+        const email = target.querySelector('#cloud-email').value.trim();
+        if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) {
+          notify('有効なメールアドレスを入力してください / Enter a valid email address');
+          return;
+        }
+        const {error} = await api.auth.signInWithOtp({
+          email, options:{emailRedirectTo:location.origin + location.pathname}
+        });
+        notify(error ? ('メール認証エラー / Email sign-in error: ' + error.message) :
+          'ログイン用メールを確認してください / Check your inbox for the sign-in link');
+      };
+      return;
+    }
+    target.innerHTML = ui +
+        '<p class="muted">' + safe(status) + '</p>' +
         '<button class="btn" id="cloud-login">Googleでログイン / Sign in with Google</button>';
       target.querySelector('#cloud-login').onclick = async () => {
         const {error} = await api.auth.signInWithOAuth({
