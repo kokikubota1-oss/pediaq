@@ -16,6 +16,9 @@ jobs:
       - name: Validate question JSON and manga files
         run: python scripts/validate_questions.py
       - name: Check JavaScript syntax
-        run: node --check app.js
+        run: |
+          node --check app.js
+          node --check sync.js
+          node --check config.js
       - name: Compile daily generator
         run: python -m py_compile scripts/daily_update.py
